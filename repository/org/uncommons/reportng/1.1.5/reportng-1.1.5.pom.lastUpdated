@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Nov 02 11:47:30 CST 2017
+@default-java-net-http\://download.java.net/maven/2/.lastUpdated=1509594449961
+https\://repo.maven.apache.org/maven2/.lastUpdated=1509594450241
+http\://download.java.net/maven/2/.error=Could not transfer artifact org.uncommons\:reportng\:pom\:1.1.5 from/to java-net (http\://download.java.net/maven/2)\: download.java.net
+https\://repo.maven.apache.org/maven2/.error=

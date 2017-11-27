@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Nov 21 11:21:21 CST 2017
+http\://maven2.javacv.googlecode.com/git/.error=Could not transfer artifact com.googlecode.javacpp\:javacpp\:pom\:0.1 from/to JavaCV Maven (http\://maven2.javacv.googlecode.com/git/)\: Failed to connect to maven2.javacv.googlecode.com/2404\:6800\:4008\:c04\:0\:0\:0\:52\:80
+https\://repo.maven.apache.org/maven2/.lastUpdated=1511234460946
+@default-JavaCV\ Maven-http\://maven2.javacv.googlecode.com/git/.lastUpdated=1511234471043
+http\://maven2.javacpp.googlecode.com/git/.error=Could not transfer artifact com.googlecode.javacpp\:javacpp\:pom\:0.1 from/to JavaCPP Maven (http\://maven2.javacpp.googlecode.com/git/)\: Failed to connect to maven2.javacpp.googlecode.com/2404\:6800\:4008\:c04\:0\:0\:0\:52\:80
+@default-JavaCPP\ Maven-http\://maven2.javacpp.googlecode.com/git/.lastUpdated=1511234481135
+https\://repo.maven.apache.org/maven2/.error=
