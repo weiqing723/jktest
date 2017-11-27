@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestOperation"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.135">
+  <properties />
+  
+  
+            <testcase name="a2NewMsgz_click" time="1.135" classname="Operation.NewMsgClick" />
+      
+</testsuite>

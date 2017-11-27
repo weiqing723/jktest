@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestOperation"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.010">
+  <properties />
+  
+  
+            <testcase name="fParnter" time="0.923" classname="Operation.WriteNewMsg.Navigate" />
+                <testcase name="dFrame" time="1.416" classname="Operation.WriteNewMsg.Navigate" />
+                <testcase name="cHistoryMsg" time="0.752" classname="Operation.WriteNewMsg.Navigate" />
+                <testcase name="gMy" time="0.727" classname="Operation.WriteNewMsg.Navigate" />
+                <testcase name="eDevice" time="0.869" classname="Operation.WriteNewMsg.Navigate" />
+                <testcase name="bNewMsgClk" time="0.578" classname="Operation.WriteNewMsg.Navigate" />
+                <testcase name="aBackBtn" time="0.454" classname="Operation.WriteNewMsg.Navigate" />
+                <testcase name="hLogout" time="1.291" classname="Operation.WriteNewMsg.Navigate" />
+      
+</testsuite>

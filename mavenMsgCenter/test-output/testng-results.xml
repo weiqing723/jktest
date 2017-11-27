@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35930" started-at="2017-11-27T02:56:10Z" finished-at="2017-11-27T02:56:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35930" started-at="2017-11-27T02:56:10Z" finished-at="2017-11-27T02:56:46Z">
+      <class name="Operation.History.MsgList">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2017-11-27T10:56:10Z" finished-at="2017-11-27T10:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="beforeClass" is-config="true" duration-ms="7851" started-at="2017-11-27T10:56:10Z" finished-at="2017-11-27T10:56:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13132919225]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="beforeMethod" is-config="true" duration-ms="1699" started-at="2017-11-27T10:56:18Z" finished-at="2017-11-27T10:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a1DefaultDisplay()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="a1DefaultDisplay" duration-ms="46" started-at="2017-11-27T10:56:20Z" finished-at="2017-11-27T10:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a1DefaultDisplay -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="beforeMethod" is-config="true" duration-ms="1335" started-at="2017-11-27T10:56:20Z" finished-at="2017-11-27T10:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-27T10:56:20Z" finished-at="2017-11-27T10:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="a2DefaultType()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="a2DefaultType" duration-ms="28" started-at="2017-11-27T10:56:21Z" finished-at="2017-11-27T10:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a2DefaultType -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="beforeMethod" is-config="true" duration-ms="1309" started-at="2017-11-27T10:56:21Z" finished-at="2017-11-27T10:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-27T10:56:21Z" finished-at="2017-11-27T10:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="a3DefaulSequence()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="a3DefaulSequence" duration-ms="51" started-at="2017-11-27T10:56:22Z" finished-at="2017-11-27T10:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a3DefaulSequence -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-27T10:56:22Z" finished-at="2017-11-27T10:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="beforeMethod" is-config="true" duration-ms="1309" started-at="2017-11-27T10:56:22Z" finished-at="2017-11-27T10:56:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a5RejectedSequence()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="a5RejectedSequence" duration-ms="2329" started-at="2017-11-27T10:56:24Z" finished-at="2017-11-27T10:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a5RejectedSequence -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-27T10:56:26Z" finished-at="2017-11-27T10:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="beforeMethod" is-config="true" duration-ms="1431" started-at="2017-11-27T10:56:26Z" finished-at="2017-11-27T10:56:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a7RejectedSequence()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="a7RejectedSequence" duration-ms="321" started-at="2017-11-27T10:56:27Z" finished-at="2017-11-27T10:56:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a7RejectedSequence -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-27T10:56:28Z" finished-at="2017-11-27T10:56:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="beforeMethod" is-config="true" duration-ms="1308" started-at="2017-11-27T10:56:28Z" finished-at="2017-11-27T10:56:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a8ClickNextDrawer()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="a8ClickNextDrawer" duration-ms="986" started-at="2017-11-27T10:56:29Z" finished-at="2017-11-27T10:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a8ClickNextDrawer -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="beforeMethod" is-config="true" duration-ms="1341" started-at="2017-11-27T10:56:30Z" finished-at="2017-11-27T10:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-27T10:56:30Z" finished-at="2017-11-27T10:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="a9ClickLastDrawer()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="a9ClickLastDrawer" duration-ms="3653" started-at="2017-11-27T10:56:31Z" finished-at="2017-11-27T10:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a9ClickLastDrawer -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="beforeMethod" is-config="true" duration-ms="1306" started-at="2017-11-27T10:56:35Z" finished-at="2017-11-27T10:56:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-27T10:56:35Z" finished-at="2017-11-27T10:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="b1LastDrawer()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="b1LastDrawer" duration-ms="2763" started-at="2017-11-27T10:56:36Z" finished-at="2017-11-27T10:56:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b1LastDrawer -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-27T10:56:39Z" finished-at="2017-11-27T10:56:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="beforeMethod" is-config="true" duration-ms="1322" started-at="2017-11-27T10:56:39Z" finished-at="2017-11-27T10:56:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b2EditNavigate()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="b2EditNavigate" duration-ms="5241" started-at="2017-11-27T10:56:40Z" finished-at="2017-11-27T10:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b2EditNavigate -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-27T10:56:46Z" finished-at="2017-11-27T10:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="afterClass" is-config="true" duration-ms="276" started-at="2017-11-27T10:56:46Z" finished-at="2017-11-27T10:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-11-27T10:56:46Z" finished-at="2017-11-27T10:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Operation.History.MsgList@5e3a8624]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-11-27T10:56:51Z" finished-at="2017-11-27T10:56:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Operation.History.MsgList -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

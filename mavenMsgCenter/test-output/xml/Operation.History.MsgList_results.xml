@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestOperation"
+           tests="10"
+           failures="4"
+           errors="0"
+           skipped="0"
+           time="34.054">
+  <properties />
+            <testcase name="b1LastDrawer" time="2.751" classname="Operation.History.MsgList">
+                <failure type="org.openqa.selenium.StaleElementReferenceException"
+                  message="The element reference of &lt;div class=&quot;msgBox&quot;&gt; stale: either the element is no longer attached to the DOM or the page has been refreshed
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;bogon&apos;, ip: &apos;fe80:0:0:0:1865:c283:23d3:accf%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/g2/7q3b2c1d233cg2z5k96m36xc0000gn/T/rust_mozprofile.zZUUV6irLYWG, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=MAC, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=16.7.0, moz:processID=3259, browserName=firefox, javascriptEnabled=true, platformName=MAC}]
+Session ID: 160ae797-2c4e-1b4f-ab63-1862149357d8"
+              >
+<![CDATA[org.openqa.selenium.StaleElementReferenceException: The element reference of <div class="msgBox"> stale: either the element is no longer attached to the DOM or the page has been refreshed
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'bogon', ip: 'fe80:0:0:0:1865:c283:23d3:accf%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/g2/7q3b2c1d233cg2z5k96m36xc0000gn/T/rust_mozprofile.zZUUV6irLYWG, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=MAC, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=16.7.0, moz:processID=3259, browserName=firefox, javascriptEnabled=true, platformName=MAC}]
+Session ID: 160ae797-2c4e-1b4f-ab63-1862149357d8
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+  org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:128)
+  Operation.History.MsgList.b1LastDrawer(MsgList.java:322)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="a9ClickLastDrawer" time="2.771" classname="Operation.History.MsgList">
+                <failure type="java.lang.AssertionError"
+                  message="expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:513)
+  org.testng.Assert.assertEqualsImpl(Assert.java:135)
+  org.testng.Assert.assertEquals(Assert.java:116)
+  org.testng.Assert.assertEquals(Assert.java:305)
+  org.testng.Assert.assertEquals(Assert.java:315)
+  Operation.History.MsgList.a9ClickLastDrawer(MsgList.java:302)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="b2EditNavigate" time="22.811" classname="Operation.History.MsgList">
+                <failure type="java.lang.NullPointerException"
+                  message="(null)"
+              >
+<![CDATA[java.lang.NullPointerException
+  Operation.History.MsgList.b2EditNavigate(MsgList.java:345)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="a4SubmitDetail" time="0.025" classname="Operation.History.MsgList">
+                <failure type="java.lang.AssertionError"
+                  message="expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:513)
+  org.testng.Assert.assertEqualsImpl(Assert.java:135)
+  org.testng.Assert.assertEquals(Assert.java:116)
+  org.testng.Assert.assertEquals(Assert.java:305)
+  org.testng.Assert.assertEquals(Assert.java:315)
+  Operation.History.MsgList.a4SubmitDetail(MsgList.java:137)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="a7RejectedSequence" time="0.299" classname="Operation.History.MsgList" />
+                <testcase name="a5RejectedSequence" time="2.293" classname="Operation.History.MsgList" />
+                <testcase name="a8ClickNextDrawer" time="3.033" classname="Operation.History.MsgList" />
+                <testcase name="a3DefaulSequence" time="0.023" classname="Operation.History.MsgList" />
+                <testcase name="a1DefaultDisplay" time="0.028" classname="Operation.History.MsgList" />
+                <testcase name="a2DefaultType" time="0.020" classname="Operation.History.MsgList" />
+      
+</testsuite>

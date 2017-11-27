@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestOperation"
+           tests="17"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="43.979">
+  <properties />
+  
+  
+            <testcase name="a4UploadingInputTitle" time="2.684" classname="Operation.WriteNewMsg.VideoUpload" />
+                <testcase name="b1UploadingCancelX" time="11.047" classname="Operation.WriteNewMsg.VideoUpload" />
+                <testcase name="a2Title30chars" time="1.467" classname="Operation.WriteNewMsg.VideoUpload" />
+                <testcase name="a6UploadingClickOutside" time="2.186" classname="Operation.WriteNewMsg.VideoUpload" />
+                <testcase name="b4UploadedScroll" time="2.732" classname="Operation.WriteNewMsg.VideoUpload" />
+                <testcase name="a5UploadingScroll" time="1.874" classname="Operation.WriteNewMsg.VideoUpload" />
+                <testcase name="b5UploadingClickOutside" time="2.588" classname="Operation.WriteNewMsg.VideoUpload" />
+                <testcase name="a8Uploading50Close" time="1.885" classname="Operation.WriteNewMsg.VideoUpload" />
+                <testcase name="b6UploadedClose" time="1.907" classname="Operation.WriteNewMsg.VideoUpload" />
+                <testcase name="b7UploadedCancelClose" time="3.196" classname="Operation.WriteNewMsg.VideoUpload" />
+                <testcase name="b2UploadingConfirmClose" time="0.651" classname="Operation.WriteNewMsg.VideoUpload" />
+                <testcase name="a7UploadingVerifyFinish" time="0.098" classname="Operation.WriteNewMsg.VideoUpload" />
+                <testcase name="a3WrongFormat" time="2.043" classname="Operation.WriteNewMsg.VideoUpload" />
+                <testcase name="b3UploadAgain" time="2.403" classname="Operation.WriteNewMsg.VideoUpload" />
+                <testcase name="b8UploadedCloseConfirm" time="2.797" classname="Operation.WriteNewMsg.VideoUpload" />
+                <testcase name="a9Uploading90Close" time="2.205" classname="Operation.WriteNewMsg.VideoUpload" />
+                <testcase name="a1TitleAlert" time="2.216" classname="Operation.WriteNewMsg.VideoUpload" />
+      
+</testsuite>

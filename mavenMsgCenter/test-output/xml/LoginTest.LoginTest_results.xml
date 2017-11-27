@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestOperation"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.696">
+  <properties />
+  
+  
+            <testcase name="phoneisWrongPwd" time="0.828" classname="LoginTest.LoginTest" />
+                <testcase name="phoneisNull" time="0.331" classname="LoginTest.LoginTest" />
+                <testcase name="getUrl" time="0.015" classname="LoginTest.LoginTest" />
+                <testcase name="phoneisWrongformat1" time="0.900" classname="LoginTest.LoginTest" />
+                <testcase name="phoneisWrongformat2" time="0.867" classname="LoginTest.LoginTest" />
+                <testcase name="phoneisLock" time="0.951" classname="LoginTest.LoginTest" />
+                <testcase name="phoneisWrongformat3" time="0.874" classname="LoginTest.LoginTest" />
+                <testcase name="phoneisWrongNumber" time="0.930" classname="LoginTest.LoginTest" />
+      
+</testsuite>

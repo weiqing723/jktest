@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <parameter name="baseUrl" value="http://testmcenter.weixinxk.com"/>
+  <parameter name="OperationUser" value="13123456707"/>
+  <parameter name="lockedUser" value="13123456701"/>
+  <parameter name="超管" value="18825160781"/>
+  <parameter name="OperationUser2" value="13132919225"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="Common.TestngRetryListener"/>
+    <listener class-name="Common.RetryListener"/>
+  </listeners>
+  <test name="TestOperation(failed)" parallel="classes">
+    <classes>
+      <class name="Operation.WriteNewMsg.Navigate">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Operation.WriteNewMsg.Navigate -->
+      <class name="Operation.History.MsgList">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="b2EditNavigate"/>
+          <include name="afterSuite"/>
+          <include name="b1LastDrawer"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="a4SubmitDetail"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="a9ClickLastDrawer"/>
+        </methods>
+      </class> <!-- Operation.History.MsgList -->
+      <class name="Operation.WriteNewMsg.PictureUpload">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="a8UploadingCloseCancel"/>
+        </methods>
+      </class> <!-- Operation.WriteNewMsg.PictureUpload -->
+      <class name="Operation.WriteNewMsg.Preview">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Operation.WriteNewMsg.Preview -->
+      <class name="Operation.WriteNewMsg.Contents">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Operation.WriteNewMsg.Contents -->
+      <class name="LoginTest.LoginTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- LoginTest.LoginTest -->
+      <class name="Operation.NewsList">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Operation.NewsList -->
+      <class name="Operation.History.Navigate">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Operation.History.Navigate -->
+      <class name="Operation.WriteNewMsg.VideoUpload">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Operation.WriteNewMsg.VideoUpload -->
+    </classes>
+  </test> <!-- TestOperation(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -1,0 +1,1660 @@
+<html>
+<head>
+<title>TestNG:  TestOperation</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestOperation</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>121/5/20</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Nov 25 17:34:03 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>1098 seconds (1098840 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Operation.History.MsgList.a4SubmitDetail()'><b>a4SubmitDetail</b><br>Test class: Operation.History.MsgList</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Operation.History.MsgList.a4SubmitDetail(MsgList.java:137)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1483196351", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1483196351'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at Operation.History.MsgList.a4SubmitDetail(MsgList.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.a8UploadingCloseCancel()'><b>a8UploadingCloseCancel</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Operation.WriteNewMsg.PictureUpload.a8UploadingCloseCancel(PictureUpload.java:226)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1913257053", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1913257053'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at Operation.WriteNewMsg.PictureUpload.a8UploadingCloseCancel(PictureUpload.java:226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>60</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.History.MsgList.a9ClickLastDrawer()'><b>a9ClickLastDrawer</b><br>Test class: Operation.History.MsgList</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Operation.History.MsgList.a9ClickLastDrawer(MsgList.java:302)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1242322456", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1242322456'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at Operation.History.MsgList.a9ClickLastDrawer(MsgList.java:302)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>2</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.History.MsgList.b1LastDrawer()'><b>b1LastDrawer</b><br>Test class: Operation.History.MsgList</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element reference of &lt;div class=&quot;msgBox&quot;&gt; stale: either the element is no longer attached to the DOM or the page has been refreshed
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;bogon&apos;, ip: &apos;fe80:0:0:0:1865:c283:23d3:accf%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/g2/7q3b2c1d233cg2z5k96m36xc0000gn/T/rust_mozprofile.zZUUV6irLYWG, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=MAC, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=16.7.0, moz:processID=3259, browserName=firefox, javascriptEnabled=true, platformName=MAC}]
+Session ID: 160ae797-2c4e-1b4f-ab63-1862149357d8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:128)
+	at Operation.History.MsgList.b1LastDrawer(MsgList.java:322)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace911334242", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace911334242'><pre>org.openqa.selenium.StaleElementReferenceException: The element reference of &lt;div class=&quot;msgBox&quot;&gt; stale: either the element is no longer attached to the DOM or the page has been refreshed
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;bogon&apos;, ip: &apos;fe80:0:0:0:1865:c283:23d3:accf%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/g2/7q3b2c1d233cg2z5k96m36xc0000gn/T/rust_mozprofile.zZUUV6irLYWG, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=MAC, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=16.7.0, moz:processID=3259, browserName=firefox, javascriptEnabled=true, platformName=MAC}]
+Session ID: 160ae797-2c4e-1b4f-ab63-1862149357d8
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:128)
+	at Operation.History.MsgList.b1LastDrawer(MsgList.java:322)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>2</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.History.MsgList.b2EditNavigate()'><b>b2EditNavigate</b><br>Test class: Operation.History.MsgList</td>
+<td><div><pre>java.lang.NullPointerException
+	at Operation.History.MsgList.b2EditNavigate(MsgList.java:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace440375352", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace440375352'><pre>java.lang.NullPointerException
+	at Operation.History.MsgList.b2EditNavigate(MsgList.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>22</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Operation.History.MsgList.a1DefaultDisplay()'><b>a1DefaultDisplay</b><br>Test class: Operation.History.MsgList</td>
+<td></td>
+<td>0</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Preview.a1PreviewNotClickable()'><b>a1PreviewNotClickable</b><br>Test class: Operation.WriteNewMsg.Preview</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.Preview@27a8c74e</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.VideoUpload.a1TitleAlert()'><b>a1TitleAlert</b><br>Test class: Operation.WriteNewMsg.VideoUpload</td>
+<td></td>
+<td>3</td>
+<td>Operation.WriteNewMsg.VideoUpload@33f88ab</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.a1TitleText()'><b>a1TitleText</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.History.Navigate.a1back()'><b>a1back</b><br>Test class: Operation.History.Navigate</td>
+<td></td>
+<td>1</td>
+<td>Operation.History.Navigate@1b68ddbd</td></tr>
+<tr>
+<td title='Operation.NewsList.a1default1()'><b>a1default1</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>0</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.History.MsgList.a2DefaultType()'><b>a2DefaultType</b><br>Test class: Operation.History.MsgList</td>
+<td></td>
+<td>0</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.History.Navigate.a2NewMsg()'><b>a2NewMsg</b><br>Test class: Operation.History.Navigate</td>
+<td></td>
+<td>0</td>
+<td>Operation.History.Navigate@1b68ddbd</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Preview.a2PreviewClickable()'><b>a2PreviewClickable</b><br>Test class: Operation.WriteNewMsg.Preview</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.Preview@27a8c74e</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.a2Title30Chars()'><b>a2Title30Chars</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.VideoUpload.a2Title30chars()'><b>a2Title30chars</b><br>Test class: Operation.WriteNewMsg.VideoUpload</td>
+<td></td>
+<td>2</td>
+<td>Operation.WriteNewMsg.VideoUpload@33f88ab</td></tr>
+<tr>
+<td title='Operation.NewsList.a2default2()'><b>a2default2</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>0</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Preview.a3BacktoWrite()'><b>a3BacktoWrite</b><br>Test class: Operation.WriteNewMsg.Preview</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.Preview@27a8c74e</td></tr>
+<tr>
+<td title='Operation.History.MsgList.a3DefaulSequence()'><b>a3DefaulSequence</b><br>Test class: Operation.History.MsgList</td>
+<td></td>
+<td>0</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.a3PictureSizeVerify()'><b>a3PictureSizeVerify</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.VideoUpload.a3WrongFormat()'><b>a3WrongFormat</b><br>Test class: Operation.WriteNewMsg.VideoUpload</td>
+<td></td>
+<td>2</td>
+<td>Operation.WriteNewMsg.VideoUpload@33f88ab</td></tr>
+<tr>
+<td title='Operation.NewsList.a3default3()'><b>a3default3</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>0</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.NewsList.a4NewMsgz_click()'><b>a4NewMsgz_click</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>0</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.VideoUpload.a4UploadingInputTitle()'><b>a4UploadingInputTitle</b><br>Test class: Operation.WriteNewMsg.VideoUpload</td>
+<td></td>
+<td>3</td>
+<td>Operation.WriteNewMsg.VideoUpload@33f88ab</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.a4UploadingTextInput()'><b>a4UploadingTextInput</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Preview.a4VideoPreview()'><b>a4VideoPreview</b><br>Test class: Operation.WriteNewMsg.Preview</td>
+<td></td>
+<td>13</td>
+<td>Operation.WriteNewMsg.Preview@27a8c74e</td></tr>
+<tr>
+<td title='Operation.History.Navigate.a5Device()'><b>a5Device</b><br>Test class: Operation.History.Navigate</td>
+<td></td>
+<td>2</td>
+<td>Operation.History.Navigate@1b68ddbd</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Preview.a5PreviewCurrentLocation()'><b>a5PreviewCurrentLocation</b><br>Test class: Operation.WriteNewMsg.Preview</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.Preview@27a8c74e</td></tr>
+<tr>
+<td title='Operation.History.MsgList.a5RejectedSequence()'><b>a5RejectedSequence</b><br>Test class: Operation.History.MsgList</td>
+<td></td>
+<td>2</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.a5UploadingScroll()'><b>a5UploadingScroll</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.VideoUpload.a5UploadingScroll()'><b>a5UploadingScroll</b><br>Test class: Operation.WriteNewMsg.VideoUpload</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.VideoUpload@33f88ab</td></tr>
+<tr>
+<td title='Operation.NewsList.a5leftnavi1()'><b>a5leftnavi1</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>0</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Preview.a6CurrentLocationWrite()'><b>a6CurrentLocationWrite</b><br>Test class: Operation.WriteNewMsg.Preview</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.Preview@27a8c74e</td></tr>
+<tr>
+<td title='Operation.History.Navigate.a6Parnter()'><b>a6Parnter</b><br>Test class: Operation.History.Navigate</td>
+<td></td>
+<td>4</td>
+<td>Operation.History.Navigate@1b68ddbd</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.a6UploadingClickOutside()'><b>a6UploadingClickOutside</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.VideoUpload.a6UploadingClickOutside()'><b>a6UploadingClickOutside</b><br>Test class: Operation.WriteNewMsg.VideoUpload</td>
+<td></td>
+<td>2</td>
+<td>Operation.WriteNewMsg.VideoUpload@33f88ab</td></tr>
+<tr>
+<td title='Operation.NewsList.a6history_click()'><b>a6history_click</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>0</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.NewsList.a7Album_click()'><b>a7Album_click</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>4</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Preview.a7PreviewNotClickable()'><b>a7PreviewNotClickable</b><br>Test class: Operation.WriteNewMsg.Preview</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.Preview@27a8c74e</td></tr>
+<tr>
+<td title='Operation.History.MsgList.a7RejectedSequence()'><b>a7RejectedSequence</b><br>Test class: Operation.History.MsgList</td>
+<td></td>
+<td>0</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.a7UploadingClickFinish()'><b>a7UploadingClickFinish</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.VideoUpload.a7UploadingVerifyFinish()'><b>a7UploadingVerifyFinish</b><br>Test class: Operation.WriteNewMsg.VideoUpload</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.VideoUpload@33f88ab</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Preview.a8ClickChangeObj()'><b>a8ClickChangeObj</b><br>Test class: Operation.WriteNewMsg.Preview</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.Preview@27a8c74e</td></tr>
+<tr>
+<td title='Operation.History.MsgList.a8ClickNextDrawer()'><b>a8ClickNextDrawer</b><br>Test class: Operation.History.MsgList</td>
+<td></td>
+<td>3</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.NewsList.a8Device_click()'><b>a8Device_click</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>4</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.VideoUpload.a8Uploading50Close()'><b>a8Uploading50Close</b><br>Test class: Operation.WriteNewMsg.VideoUpload</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.VideoUpload@33f88ab</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.a8UploadingClickX()'><b>a8UploadingClickX</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.NewsList.a9Partner_click()'><b>a9Partner_click</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>3</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.VideoUpload.a9Uploading90Close()'><b>a9Uploading90Close</b><br>Test class: Operation.WriteNewMsg.VideoUpload</td>
+<td></td>
+<td>2</td>
+<td>Operation.WriteNewMsg.VideoUpload@33f88ab</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.a9UploadingCloseConfirm()'><b>a9UploadingCloseConfirm</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Navigate.aBackBtn()'><b>aBackBtn</b><br>Test class: Operation.WriteNewMsg.Navigate</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.Navigate@4d41cee</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Contents.aTitleLength14()'><b>aTitleLength14</b><br>Test class: Operation.WriteNewMsg.Contents</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.Contents@3712b94</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Contents.aTitleNull()'><b>aTitleNull</b><br>Test class: Operation.WriteNewMsg.Contents</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.Contents@3712b94</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Contents.aaDefaultLabel()'><b>aaDefaultLabel</b><br>Test class: Operation.WriteNewMsg.Contents</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.Contents@3712b94</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Contents.abChangeLabel()'><b>abChangeLabel</b><br>Test class: Operation.WriteNewMsg.Contents</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.Contents@3712b94</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Contents.acDefaultLabel()'><b>acDefaultLabel</b><br>Test class: Operation.WriteNewMsg.Contents</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.Contents@3712b94</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Contents.b0PicClick()'><b>b0PicClick</b><br>Test class: Operation.WriteNewMsg.Contents</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.Contents@3712b94</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Contents.b0TextareaCount()'><b>b0TextareaCount</b><br>Test class: Operation.WriteNewMsg.Contents</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.Contents@3712b94</td></tr>
+<tr>
+<td title='Operation.History.Navigate.b1Display25()'><b>b1Display25</b><br>Test class: Operation.History.Navigate</td>
+<td></td>
+<td>3</td>
+<td>Operation.History.Navigate@1b68ddbd</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Contents.b1PicEdit()'><b>b1PicEdit</b><br>Test class: Operation.WriteNewMsg.Contents</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.Contents@3712b94</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.VideoUpload.b1UploadingCancelX()'><b>b1UploadingCancelX</b><br>Test class: Operation.WriteNewMsg.VideoUpload</td>
+<td></td>
+<td>4</td>
+<td>Operation.WriteNewMsg.VideoUpload@33f88ab</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.b1UploadingCloseConfirmUploadAgain()'><b>b1UploadingCloseConfirmUploadAgain</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>2</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.NewsList.b1pushObj()'><b>b1pushObj</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>4</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.History.Navigate.b2Display50()'><b>b2Display50</b><br>Test class: Operation.History.Navigate</td>
+<td></td>
+<td>2</td>
+<td>Operation.History.Navigate@1b68ddbd</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Contents.b2PicDelete()'><b>b2PicDelete</b><br>Test class: Operation.WriteNewMsg.Contents</td>
+<td></td>
+<td>9</td>
+<td>Operation.WriteNewMsg.Contents@3712b94</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.b2UploadedScroll()'><b>b2UploadedScroll</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>2</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.VideoUpload.b2UploadingConfirmClose()'><b>b2UploadingConfirmClose</b><br>Test class: Operation.WriteNewMsg.VideoUpload</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.VideoUpload@33f88ab</td></tr>
+<tr>
+<td title='Operation.NewsList.b2pushObjNums()'><b>b2pushObjNums</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>6</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.History.Navigate.b3Display100()'><b>b3Display100</b><br>Test class: Operation.History.Navigate</td>
+<td></td>
+<td>2</td>
+<td>Operation.History.Navigate@1b68ddbd</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.b3UloadedClickOutside()'><b>b3UloadedClickOutside</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>4</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Contents.b3UploadAgain()'><b>b3UploadAgain</b><br>Test class: Operation.WriteNewMsg.Contents</td>
+<td></td>
+<td>3</td>
+<td>Operation.WriteNewMsg.Contents@3712b94</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.VideoUpload.b3UploadAgain()'><b>b3UploadAgain</b><br>Test class: Operation.WriteNewMsg.VideoUpload</td>
+<td></td>
+<td>2</td>
+<td>Operation.WriteNewMsg.VideoUpload@33f88ab</td></tr>
+<tr>
+<td title='Operation.NewsList.b3apushObjAll()'><b>b3apushObjAll</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>0</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.History.Navigate.b4Page1()'><b>b4Page1</b><br>Test class: Operation.History.Navigate</td>
+<td></td>
+<td>0</td>
+<td>Operation.History.Navigate@1b68ddbd</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Contents.b4Preview()'><b>b4Preview</b><br>Test class: Operation.WriteNewMsg.Contents</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.Contents@3712b94</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.VideoUpload.b4UploadedScroll()'><b>b4UploadedScroll</b><br>Test class: Operation.WriteNewMsg.VideoUpload</td>
+<td></td>
+<td>2</td>
+<td>Operation.WriteNewMsg.VideoUpload@33f88ab</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.b4UploadedTextInput()'><b>b4UploadedTextInput</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>3</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.NewsList.b4WriteSelectAll()'><b>b4WriteSelectAll</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>4</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.History.Navigate.b5Next()'><b>b5Next</b><br>Test class: Operation.History.Navigate</td>
+<td></td>
+<td>60</td>
+<td>Operation.History.Navigate@1b68ddbd</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.b5UploadAgain()'><b>b5UploadAgain</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>3</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.VideoUpload.b5UploadingClickOutside()'><b>b5UploadingClickOutside</b><br>Test class: Operation.WriteNewMsg.VideoUpload</td>
+<td></td>
+<td>2</td>
+<td>Operation.WriteNewMsg.VideoUpload@33f88ab</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Contents.b5VideoClick()'><b>b5VideoClick</b><br>Test class: Operation.WriteNewMsg.Contents</td>
+<td></td>
+<td>7</td>
+<td>Operation.WriteNewMsg.Contents@3712b94</td></tr>
+<tr>
+<td title='Operation.NewsList.b5pushObjCancelAll()'><b>b5pushObjCancelAll</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>2</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.History.Navigate.b6LastPage()'><b>b6LastPage</b><br>Test class: Operation.History.Navigate</td>
+<td></td>
+<td>4</td>
+<td>Operation.History.Navigate@1b68ddbd</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.b6UploadedAgainTextVerify()'><b>b6UploadedAgainTextVerify</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>3</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.VideoUpload.b6UploadedClose()'><b>b6UploadedClose</b><br>Test class: Operation.WriteNewMsg.VideoUpload</td>
+<td></td>
+<td>2</td>
+<td>Operation.WriteNewMsg.VideoUpload@33f88ab</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Contents.b6VideoEdit()'><b>b6VideoEdit</b><br>Test class: Operation.WriteNewMsg.Contents</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.Contents@3712b94</td></tr>
+<tr>
+<td title='Operation.NewsList.b6seleckallAfterSelectone()'><b>b6seleckallAfterSelectone</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>2</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Contents.b7DeleteVideo()'><b>b7DeleteVideo</b><br>Test class: Operation.WriteNewMsg.Contents</td>
+<td></td>
+<td>2</td>
+<td>Operation.WriteNewMsg.Contents@3712b94</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.b7UploadedAgainTwice()'><b>b7UploadedAgainTwice</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>2</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.VideoUpload.b7UploadedCancelClose()'><b>b7UploadedCancelClose</b><br>Test class: Operation.WriteNewMsg.VideoUpload</td>
+<td></td>
+<td>2</td>
+<td>Operation.WriteNewMsg.VideoUpload@33f88ab</td></tr>
+<tr>
+<td title='Operation.NewsList.b7textOfCancelAll()'><b>b7textOfCancelAll</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>2</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Contents.b8UploadVideoAgain()'><b>b8UploadVideoAgain</b><br>Test class: Operation.WriteNewMsg.Contents</td>
+<td></td>
+<td>2</td>
+<td>Operation.WriteNewMsg.Contents@3712b94</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.b8UploadedClose()'><b>b8UploadedClose</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.VideoUpload.b8UploadedCloseConfirm()'><b>b8UploadedCloseConfirm</b><br>Test class: Operation.WriteNewMsg.VideoUpload</td>
+<td></td>
+<td>2</td>
+<td>Operation.WriteNewMsg.VideoUpload@33f88ab</td></tr>
+<tr>
+<td title='Operation.NewsList.b8WhiteAfterCancelAll()'><b>b8WhiteAfterCancelAll</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>2</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.b9UploadedCloseCancel()'><b>b9UploadedCloseCancel</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.NewsList.b9WhiteSelectAllAgain()'><b>b9WhiteSelectAllAgain</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>3</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Navigate.bNewMsgClk()'><b>bNewMsgClk</b><br>Test class: Operation.WriteNewMsg.Navigate</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.Navigate@4d41cee</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Contents.beforeMethod()'><b>beforeMethod</b><br>Test class: Operation.WriteNewMsg.Contents</td>
+<td></td>
+<td>0</td>
+<td>Operation.WriteNewMsg.Contents@3712b94</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.c1UploadedCloseConfirm()'><b>c1UploadedCloseConfirm</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.NewsList.c1WhiteSelectTwoPages()'><b>c1WhiteSelectTwoPages</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>3</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.c2UploadedCloseConfirmUploadAgain()'><b>c2UploadedCloseConfirmUploadAgain</b><br>Test class: Operation.WriteNewMsg.PictureUpload</td>
+<td></td>
+<td>3</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.NewsList.c2WhiteSelectTwoPages()'><b>c2WhiteSelectTwoPages</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>6</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.NewsList.c3WhiteSelectAll()'><b>c3WhiteSelectAll</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>2</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.NewsList.c4RecentPushCancel()'><b>c4RecentPushCancel</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>2</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.NewsList.c6Page1Disabled()'><b>c6Page1Disabled</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>2</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.NewsList.c7PageLastDisabled()'><b>c7PageLastDisabled</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>2</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.NewsList.c8PageNext()'><b>c8PageNext</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>2</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.NewsList.c9LastPage()'><b>c9LastPage</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>0</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Navigate.cHistoryMsg()'><b>cHistoryMsg</b><br>Test class: Operation.WriteNewMsg.Navigate</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.Navigate@4d41cee</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Navigate.dFrame()'><b>dFrame</b><br>Test class: Operation.WriteNewMsg.Navigate</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.Navigate@4d41cee</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Navigate.eDevice()'><b>eDevice</b><br>Test class: Operation.WriteNewMsg.Navigate</td>
+<td></td>
+<td>6</td>
+<td>Operation.WriteNewMsg.Navigate@4d41cee</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Navigate.fParnter()'><b>fParnter</b><br>Test class: Operation.WriteNewMsg.Navigate</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.Navigate@4d41cee</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Navigate.gMy()'><b>gMy</b><br>Test class: Operation.WriteNewMsg.Navigate</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.Navigate@4d41cee</td></tr>
+<tr>
+<td title='LoginTest.LoginTest.getUrl()'><b>getUrl</b><br>Test class: LoginTest.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>LoginTest.LoginTest@4b1c1ea0</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.Navigate.hLogout()'><b>hLogout</b><br>Test class: Operation.WriteNewMsg.Navigate</td>
+<td></td>
+<td>1</td>
+<td>Operation.WriteNewMsg.Navigate@4d41cee</td></tr>
+<tr>
+<td title='LoginTest.LoginTest.phoneisLock()'><b>phoneisLock</b><br>Test class: LoginTest.LoginTest<br>Parameters: 13123456701</td>
+<td></td>
+<td>0</td>
+<td>LoginTest.LoginTest@4b1c1ea0</td></tr>
+<tr>
+<td title='LoginTest.LoginTest.phoneisNull()'><b>phoneisNull</b><br>Test class: LoginTest.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>LoginTest.LoginTest@4b1c1ea0</td></tr>
+<tr>
+<td title='LoginTest.LoginTest.phoneisWrongNumber()'><b>phoneisWrongNumber</b><br>Test class: LoginTest.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>LoginTest.LoginTest@4b1c1ea0</td></tr>
+<tr>
+<td title='LoginTest.LoginTest.phoneisWrongPwd()'><b>phoneisWrongPwd</b><br>Test class: LoginTest.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>LoginTest.LoginTest@4b1c1ea0</td></tr>
+<tr>
+<td title='LoginTest.LoginTest.phoneisWrongformat1()'><b>phoneisWrongformat1</b><br>Test class: LoginTest.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>LoginTest.LoginTest@4b1c1ea0</td></tr>
+<tr>
+<td title='LoginTest.LoginTest.phoneisWrongformat2()'><b>phoneisWrongformat2</b><br>Test class: LoginTest.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>LoginTest.LoginTest@4b1c1ea0</td></tr>
+<tr>
+<td title='LoginTest.LoginTest.phoneisWrongformat3()'><b>phoneisWrongformat3</b><br>Test class: LoginTest.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>LoginTest.LoginTest@4b1c1ea0</td></tr>
+<tr>
+<td title='Operation.History.Navigate.zLogout()'><b>zLogout</b><br>Test class: Operation.History.Navigate</td>
+<td></td>
+<td>1</td>
+<td>Operation.History.Navigate@1b68ddbd</td></tr>
+<tr>
+<td title='Operation.NewsList.zlogout()'><b>zlogout</b><br>Test class: Operation.NewsList</td>
+<td></td>
+<td>1</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Operation.History.MsgList.a4SubmitDetail()'><b>a4SubmitDetail</b><br>Test class: Operation.History.MsgList<br/>
+<a href="#Output-1253759949" onClick='toggleBox("Output-1253759949", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1253759949" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1253759949">
+RunCount=2<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Operation.History.MsgList.a4SubmitDetail(MsgList.java:137)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1253759949", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1253759949'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at Operation.History.MsgList.a4SubmitDetail(MsgList.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.History.MsgList.a4SubmitDetail()'><b>a4SubmitDetail</b><br>Test class: Operation.History.MsgList<br/>
+<a href="#Output-743439231" onClick='toggleBox("Output-743439231", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-743439231" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-743439231">
+RunCount=3<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Operation.History.MsgList.a4SubmitDetail(MsgList.java:137)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace743439231", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace743439231'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at Operation.History.MsgList.a4SubmitDetail(MsgList.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.History.MsgList.a4SubmitDetail()'><b>a4SubmitDetail</b><br>Test class: Operation.History.MsgList<br/>
+<a href="#Output-1970516996" onClick='toggleBox("Output-1970516996", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1970516996" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1970516996">
+RunCount=4<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Operation.History.MsgList.a4SubmitDetail(MsgList.java:137)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1970516996", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1970516996'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at Operation.History.MsgList.a4SubmitDetail(MsgList.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.VideoUpload.a8Uploading50Close()'><b>a8Uploading50Close</b><br>Test class: Operation.WriteNewMsg.VideoUpload<br/>
+<a href="#Output-826836482" onClick='toggleBox("Output-826836482", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-826836482" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-826836482">
+RunCount=2<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at Operation.WriteNewMsg.VideoUpload.a8Uploading50Close(VideoUpload.java:227)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace826836482", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace826836482'><pre>java.lang.NullPointerException
+	at Operation.WriteNewMsg.VideoUpload.a8Uploading50Close(VideoUpload.java:227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>23</td>
+<td>Operation.WriteNewMsg.VideoUpload@33f88ab</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.a8UploadingCloseCancel()'><b>a8UploadingCloseCancel</b><br>Test class: Operation.WriteNewMsg.PictureUpload<br/>
+<a href="#Output-901723635" onClick='toggleBox("Output-901723635", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-901723635" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-901723635">
+RunCount=2<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Operation.WriteNewMsg.PictureUpload.a8UploadingCloseCancel(PictureUpload.java:226)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace901723635", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace901723635'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at Operation.WriteNewMsg.PictureUpload.a8UploadingCloseCancel(PictureUpload.java:226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>60</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.a8UploadingCloseCancel()'><b>a8UploadingCloseCancel</b><br>Test class: Operation.WriteNewMsg.PictureUpload<br/>
+<a href="#Output-1048867880" onClick='toggleBox("Output-1048867880", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1048867880" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1048867880">
+RunCount=3<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;bogon&apos;, ip: &apos;fe80:0:0:0:1865:c283:23d3:accf%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/g2/7q3b2c1d233cg2z5k96m36xc0000gn/T/rust_mozprofile.VWzjXJ2OYB1x, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=MAC, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=16.7.0, moz:processID=3233, browserName=firefox, javascriptEnabled=true, platformName=MAC}]
+Session ID: 8d9bd7ce-1301-b34c-a79d-d3e656848dae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at Operation.WriteNewMsg.PictureUpload.a8UploadingCloseCancel(PictureUpload.java:219)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1048867880", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1048867880'><pre>org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;bogon&apos;, ip: &apos;fe80:0:0:0:1865:c283:23d3:accf%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/g2/7q3b2c1d233cg2z5k96m36xc0000gn/T/rust_mozprofile.VWzjXJ2OYB1x, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=MAC, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=16.7.0, moz:processID=3233, browserName=firefox, javascriptEnabled=true, platformName=MAC}]
+Session ID: 8d9bd7ce-1301-b34c-a79d-d3e656848dae
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at Operation.WriteNewMsg.PictureUpload.a8UploadingCloseCancel(PictureUpload.java:219)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>60</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.WriteNewMsg.PictureUpload.a8UploadingCloseCancel()'><b>a8UploadingCloseCancel</b><br>Test class: Operation.WriteNewMsg.PictureUpload<br/>
+<a href="#Output-2005342644" onClick='toggleBox("Output-2005342644", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2005342644" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2005342644">
+RunCount=4<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Operation.WriteNewMsg.PictureUpload.a8UploadingCloseCancel(PictureUpload.java:226)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2005342644", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2005342644'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at Operation.WriteNewMsg.PictureUpload.a8UploadingCloseCancel(PictureUpload.java:226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>60</td>
+<td>Operation.WriteNewMsg.PictureUpload@2833cc44</td></tr>
+<tr>
+<td title='Operation.History.MsgList.a9ClickLastDrawer()'><b>a9ClickLastDrawer</b><br>Test class: Operation.History.MsgList<br/>
+<a href="#Output-402653880" onClick='toggleBox("Output-402653880", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-402653880" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-402653880">
+RunCount=2<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Operation.History.MsgList.a9ClickLastDrawer(MsgList.java:302)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace402653880", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace402653880'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at Operation.History.MsgList.a9ClickLastDrawer(MsgList.java:302)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>2</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.History.MsgList.a9ClickLastDrawer()'><b>a9ClickLastDrawer</b><br>Test class: Operation.History.MsgList<br/>
+<a href="#Output-1840299695" onClick='toggleBox("Output-1840299695", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1840299695" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1840299695">
+RunCount=3<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Operation.History.MsgList.a9ClickLastDrawer(MsgList.java:302)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1840299695", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1840299695'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at Operation.History.MsgList.a9ClickLastDrawer(MsgList.java:302)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>6</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.History.MsgList.a9ClickLastDrawer()'><b>a9ClickLastDrawer</b><br>Test class: Operation.History.MsgList<br/>
+<a href="#Output-390724873" onClick='toggleBox("Output-390724873", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-390724873" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-390724873">
+RunCount=4<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Operation.History.MsgList.a9ClickLastDrawer(MsgList.java:302)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace390724873", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace390724873'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at Operation.History.MsgList.a9ClickLastDrawer(MsgList.java:302)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>2</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.History.MsgList.b1LastDrawer()'><b>b1LastDrawer</b><br>Test class: Operation.History.MsgList<br/>
+<a href="#Output-2101798198" onClick='toggleBox("Output-2101798198", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2101798198" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2101798198">
+RunCount=2<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Operation.History.MsgList.b1LastDrawer(MsgList.java:323)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2101798198", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2101798198'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at Operation.History.MsgList.b1LastDrawer(MsgList.java:323)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>2</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.History.MsgList.b1LastDrawer()'><b>b1LastDrawer</b><br>Test class: Operation.History.MsgList<br/>
+<a href="#Output-209301368" onClick='toggleBox("Output-209301368", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-209301368" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-209301368">
+RunCount=3<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Operation.History.MsgList.b1LastDrawer(MsgList.java:323)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace209301368", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace209301368'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at Operation.History.MsgList.b1LastDrawer(MsgList.java:323)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>4</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.History.MsgList.b1LastDrawer()'><b>b1LastDrawer</b><br>Test class: Operation.History.MsgList<br/>
+<a href="#Output-4078985" onClick='toggleBox("Output-4078985", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-4078985" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-4078985">
+RunCount=4<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Operation.History.MsgList.b1LastDrawer(MsgList.java:323)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace4078985", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace4078985'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at Operation.History.MsgList.b1LastDrawer(MsgList.java:323)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>2</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.History.MsgList.b2EditNavigate()'><b>b2EditNavigate</b><br>Test class: Operation.History.MsgList<br/>
+<a href="#Output-2121690999" onClick='toggleBox("Output-2121690999", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2121690999" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2121690999">
+RunCount=2<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at Operation.History.MsgList.b2EditNavigate(MsgList.java:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2121690999", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2121690999'><pre>java.lang.NullPointerException
+	at Operation.History.MsgList.b2EditNavigate(MsgList.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>22</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.History.MsgList.b2EditNavigate()'><b>b2EditNavigate</b><br>Test class: Operation.History.MsgList<br/>
+<a href="#Output-1579580803" onClick='toggleBox("Output-1579580803", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1579580803" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1579580803">
+RunCount=3<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at Operation.History.MsgList.b2EditNavigate(MsgList.java:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1579580803", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1579580803'><pre>java.lang.NullPointerException
+	at Operation.History.MsgList.b2EditNavigate(MsgList.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>22</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.History.MsgList.b2EditNavigate()'><b>b2EditNavigate</b><br>Test class: Operation.History.MsgList<br/>
+<a href="#Output-684715744" onClick='toggleBox("Output-684715744", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-684715744" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-684715744">
+RunCount=4<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at Operation.History.MsgList.b2EditNavigate(MsgList.java:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace684715744", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace684715744'><pre>java.lang.NullPointerException
+	at Operation.History.MsgList.b2EditNavigate(MsgList.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>22</td>
+<td>Operation.History.MsgList@2d8f65a4</td></tr>
+<tr>
+<td title='Operation.NewsList.b4WriteSelectAll()'><b>b4WriteSelectAll</b><br>Test class: Operation.NewsList<br/>
+<a href="#Output-571866244" onClick='toggleBox("Output-571866244", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-571866244" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-571866244">
+RunCount=2<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [http://testmcenter.weixinxk.com/admin/pushmessage/edit/add/] but found [http://testmcenter.weixinxk.com/admin/pushmessage/edit/index]
+	at Operation.NewsList.b4WriteSelectAll(NewsList.java:214)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace571866244", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace571866244'><pre>java.lang.AssertionError: expected [http://testmcenter.weixinxk.com/admin/pushmessage/edit/add/] but found [http://testmcenter.weixinxk.com/admin/pushmessage/edit/index]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Operation.NewsList.b4WriteSelectAll(NewsList.java:214)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>21</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.NewsList.b7textOfCancelAll()'><b>b7textOfCancelAll</b><br>Test class: Operation.NewsList<br/>
+<a href="#Output-968133248" onClick='toggleBox("Output-968133248", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-968133248" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-968133248">
+RunCount=2<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [取消全选] but found [全选]
+	at Operation.NewsList.b7textOfCancelAll(NewsList.java:286)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace968133248", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace968133248'><pre>java.lang.AssertionError: expected [取消全选] but found [全选]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Operation.NewsList.b7textOfCancelAll(NewsList.java:286)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>2</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.NewsList.b7textOfCancelAll()'><b>b7textOfCancelAll</b><br>Test class: Operation.NewsList<br/>
+<a href="#Output-868419540" onClick='toggleBox("Output-868419540", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-868419540" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-868419540">
+RunCount=3<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [取消全选] but found [全选]
+	at Operation.NewsList.b7textOfCancelAll(NewsList.java:286)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace868419540", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace868419540'><pre>java.lang.AssertionError: expected [取消全选] but found [全选]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Operation.NewsList.b7textOfCancelAll(NewsList.java:286)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>2</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+<tr>
+<td title='Operation.NewsList.c1WhiteSelectTwoPages()'><b>c1WhiteSelectTwoPages</b><br>Test class: Operation.NewsList<br/>
+<a href="#Output-350415027" onClick='toggleBox("Output-350415027", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-350415027" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-350415027">
+RunCount=2<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [http://testmcenter.weixinxk.com/admin/pushmessage/edit/add/] but found [http://testmcenter.weixinxk.com/admin/pushmessage/edit/index]
+	at Operation.NewsList.c1WhiteSelectTwoPages(NewsList.java:366)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace350415027", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace350415027'><pre>java.lang.AssertionError: expected [http://testmcenter.weixinxk.com/admin/pushmessage/edit/add/] but found [http://testmcenter.weixinxk.com/admin/pushmessage/edit/index]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Operation.NewsList.c1WhiteSelectTwoPages(NewsList.java:366)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>6</td>
+<td>Operation.NewsList@17579e0f</td></tr>
+</table><p>
+</body>
+</html>

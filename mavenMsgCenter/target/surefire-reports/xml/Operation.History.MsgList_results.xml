@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestOperation"
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="15.280">
+  <properties />
+  
+  
+            <testcase name="a3DefaulSequence" time="0.030" classname="Operation.History.MsgList" />
+                <testcase name="a1DefaultDisplay" time="0.043" classname="Operation.History.MsgList" />
+                <testcase name="a8ClickNextDrawer" time="0.950" classname="Operation.History.MsgList" />
+                <testcase name="a7RejectedSequence" time="0.329" classname="Operation.History.MsgList" />
+                <testcase name="a2DefaultType" time="0.025" classname="Operation.History.MsgList" />
+                <testcase name="b2EditNavigate" time="5.179" classname="Operation.History.MsgList" />
+                <testcase name="a5RejectedSequence" time="2.339" classname="Operation.History.MsgList" />
+                <testcase name="a9ClickLastDrawer" time="3.630" classname="Operation.History.MsgList" />
+                <testcase name="b1LastDrawer" time="2.755" classname="Operation.History.MsgList" />
+      
+</testsuite>

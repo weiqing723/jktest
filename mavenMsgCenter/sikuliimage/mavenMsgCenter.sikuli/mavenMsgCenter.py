@@ -1,0 +1,6 @@
+doubleClick("1511245152056.png")
+click("1511243342327.png")
+doubleClick("1511244417276.png")
+doubleClick("1511245210838.png")
+doubleClick("1511245359607.png")
+click("1511246892742.png")

@@ -1,0 +1,138 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mymaven</groupId>
+  <artifactId>mavenMsgCenter</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+  <!-- 手动写一个dependencies标签，然后百度 Maven testng 考进来-->
+<dependencies>  
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.6</version>
+</dependency>
+
+<dependency>
+  <groupId>com.sikulix</groupId>
+  <artifactId>sikulixapi</artifactId>
+  <version>1.1.1</version>
+</dependency>
+
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.10</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.6.0</version>
+</dependency>
+<dependency>
+    <groupId>pl.oakfusion</groupId>
+    <artifactId>chromedriver</artifactId>
+    <version>2.9</version>
+    <type>pom</type>
+</dependency>
+
+<dependency>
+            <groupId>org.uncommons</groupId>
+            <artifactId>reportng</artifactId>
+            <version>1.1.4</version>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.testng</groupId>
+                    <artifactId>testng</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+<dependency>
+
+<groupId>com.google.inject</groupId>
+
+<artifactId>guice</artifactId>
+
+<version>4.0</version>
+ <scope>test</scope>
+
+
+</dependency>
+  <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>javax.mail</artifactId>
+            <version>1.5.2</version>
+        </dependency>
+
+</dependencies>
+
+<build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19</version>
+                <configuration>
+                     <!-- <parallel>tests</parallel>  
+           		     <threadCount>4</threadCount>   -->
+         		     <argLine>-Dfile.encoding=UTF-8</argLine> 	
+                      <!--  <includes>
+                        maven-surefire-plugin的test目标会自动执行测试源码路径（默认为src/test/java/)下所有符合一组命名模式的测试类。这组模式为：*/Test.java   **/*Test.java
+**/*TestCase.java
+      				 <include>LoginTest.java</include>
+  					  </includes>
+  					<excludes>
+  					<exclude>TestloginMultiTimes.java</exclude>
+  					<exclude>staticMain.java</exclude>
+  					<exclude>TestMultiWrite.java</exclude>
+  					</excludes> -->
+                   <suiteXmlFiles>
+                        <file>testng.xml</file>
+                        
+                    </suiteXmlFiles> 
+                    <testFailureIgnore>true</testFailureIgnore> 
+                    
+                    <properties>
+                        <property>
+                            <name>usedefaultlisteners</name>
+                            <value>true</value>
+                        </property>
+                        <property>
+                            <name>listener</name>
+                            <value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter,Common.TestngRetryListener,Common.RetryListener</value>
+                                 
+                        </property>
+                    </properties> 
+                    
+                    <!-- <workingDirectory>target/</workingDirectory> -->
+                 </configuration>
+             </plugin>
+             <!--  用来设置结束后发送邮件 Begin -->
+          <plugin>
+  <groupId>org.codehaus.mojo</groupId>
+  <artifactId>exec-maven-plugin</artifactId>
+  <version>1.1.1</version>
+  <executions>
+      <execution>
+          <phase>test</phase>
+          <goals>
+              <goal>java</goal>
+          </goals>
+          <configuration>
+              <includePluginDependencies>true</includePluginDependencies>
+              <mainClass>Common.sendEmial</mainClass>
+              <arguments>
+                  <argument>11</argument>
+                  <argument>22</argument>
+              </arguments>
+          </configuration>
+      </execution>
+  </executions>
+</plugin>
+              <!--  用来设置结束后发送邮件  End-->
+         </plugins>
+     </build>
+
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestOperation"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="12.841">
+  <properties />
+  
+  
+            <testcase name="a3BacktoWrite" time="1.914" classname="Operation.WriteNewMsg.Preview" />
+                <testcase name="a4VideoPreview" time="4.404" classname="Operation.WriteNewMsg.Preview" />
+                <testcase name="a1PreviewNotClickable" time="0.018" classname="Operation.WriteNewMsg.Preview" />
+                <testcase name="a8ClickChangeObj" time="1.913" classname="Operation.WriteNewMsg.Preview" />
+                <testcase name="a5PreviewCurrentLocation" time="1.209" classname="Operation.WriteNewMsg.Preview" />
+                <testcase name="a6CurrentLocationWrite" time="1.621" classname="Operation.WriteNewMsg.Preview" />
+                <testcase name="a7PreviewNotClickable" time="1.270" classname="Operation.WriteNewMsg.Preview" />
+                <testcase name="a2PreviewClickable" time="0.492" classname="Operation.WriteNewMsg.Preview" />
+      
+</testsuite>
