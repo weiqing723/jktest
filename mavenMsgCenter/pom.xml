@@ -68,19 +68,16 @@
 
 <build>
         <plugins>
-    <!--       <plugin>
+        <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.20.1</version>
-                <configuration>
-                   
+                <configuration> 
          		     <argLine>-Dfile.encoding=UTF-8</argLine> 
                    <suiteXmlFiles>
-                        <file>testng.xml</file>
-                        
+                        <file>testng.xml</file>                
                     </suiteXmlFiles> 
-                    <testFailureIgnore>true</testFailureIgnore> 
-                    
+                    <testFailureIgnore>true</testFailureIgnore>       
                     <properties>
                         <property>
                             <name>usedefaultlisteners</name>
@@ -88,13 +85,11 @@
                         </property>
                         <property>
                             <name>listener</name>
-                            <value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter,Common.TestngRetryListener,Common.RetryListener</value>
-                                 
+                            <value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter,Common.TestngRetryListener,Common.RetryListener</value>                              
                         </property>
-                    </properties> 
-                  
+                    </properties>                
                  </configuration>
-             </plugin>		-->
+             </plugin>		
              <!--  用来设置结束后发送邮件 Begin -->
           <plugin>
   <groupId>org.codehaus.mojo</groupId>
