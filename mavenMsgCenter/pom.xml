@@ -3,10 +3,8 @@
   <groupId>mymaven</groupId>
   <artifactId>mavenMsgCenter</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-  <!-- 手动写一个dependencies标签，然后百度 Maven testng 考进来-->
+
 <dependencies>  
-<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 <dependency>
     <groupId>commons-io</groupId>
     <artifactId>commons-io</artifactId>
@@ -70,24 +68,13 @@
 
 <build>
         <plugins>
-            <plugin>
+    <!--       <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.20.1</version>
                 <configuration>
-                     <!-- <parallel>tests</parallel>  
-           		     <threadCount>4</threadCount>   -->
-         		     <argLine>-Dfile.encoding=UTF-8</argLine> 	
-                      <!--  <includes>
-                        maven-surefire-plugin的test目标会自动执行测试源码路径（默认为src/test/java/)下所有符合一组命名模式的测试类。这组模式为：*/Test.java   **/*Test.java
-**/*TestCase.java
-      				 <include>LoginTest.java</include>
-  					  </includes>
-  					<excludes>
-  					<exclude>TestloginMultiTimes.java</exclude>
-  					<exclude>staticMain.java</exclude>
-  					<exclude>TestMultiWrite.java</exclude>
-  					</excludes> -->
+                   
+         		     <argLine>-Dfile.encoding=UTF-8</argLine> 
                    <suiteXmlFiles>
                         <file>testng.xml</file>
                         
@@ -105,10 +92,9 @@
                                  
                         </property>
                     </properties> 
-                    
-                    <!-- <workingDirectory>target/</workingDirectory> -->
+                  
                  </configuration>
-             </plugin>
+             </plugin>		-->
              <!--  用来设置结束后发送邮件 Begin -->
           <plugin>
   <groupId>org.codehaus.mojo</groupId>

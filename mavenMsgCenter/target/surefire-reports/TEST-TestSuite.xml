@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="616.741" tests="127" errors="0" skipped="2" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/wei/desktop/jktest/mavenMsgCenter"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/wei/Desktop/jktest/mavenMsgCenter"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/wei/Applications/apache-maven-3.5.2/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/var/root/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/wei/Applications/apache-maven-3.5.2/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="library.jansi.path" value="/Users/wei/Applications/apache-maven-3.5.2/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local„ÄÅ169.254/16|*.local„ÄÅ169.254/16"/>
+    <property name="user.home" value="/var/root"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="root"/>
+    <property name="java.class.path" value="/Users/wei/Applications/apache-maven-3.5.2/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -U"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="/var/root/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/wei/Applications/apache-maven-3.5.2"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local„ÄÅ169.254/16|*.local„ÄÅ169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local„ÄÅ169.254/16|*.local„ÄÅ169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="getUrl" classname="LoginTest.LoginTest" time="0.012"/>
+  <testcase name="aBackBtn" classname="Operation.WriteNewMsg.Navigate" time="0.405"/>
+  <testcase name="bNewMsgClk" classname="Operation.WriteNewMsg.Navigate" time="0.73"/>
+  <testcase name="cHistoryMsg" classname="Operation.WriteNewMsg.Navigate" time="0.993"/>
+  <testcase name="dFrame" classname="Operation.WriteNewMsg.Navigate" time="1.139"/>
+  <testcase name="eDevice" classname="Operation.WriteNewMsg.Navigate" time="1.696"/>
+  <testcase name="fParnter" classname="Operation.WriteNewMsg.Navigate" time="1.027"/>
+  <testcase name="gMy" classname="Operation.WriteNewMsg.Navigate" time="0.973"/>
+  <testcase name="hLogout" classname="Operation.WriteNewMsg.Navigate" time="1.271"/>
+  <testcase name="aTitleLength14" classname="Operation.WriteNewMsg.Contents" time="0.178"/>
+  <testcase name="aTitleNull" classname="Operation.WriteNewMsg.Contents" time="0.689"/>
+  <testcase name="aaDefaultLabel" classname="Operation.WriteNewMsg.Contents" time="0.122"/>
+  <testcase name="abChangeLabel" classname="Operation.WriteNewMsg.Contents" time="0.803"/>
+  <testcase name="acDefaultLabel" classname="Operation.WriteNewMsg.Contents" time="0.351"/>
+  <testcase name="b0PicClick" classname="Operation.WriteNewMsg.Contents" time="1.569"/>
+  <testcase name="b0TextareaCount" classname="Operation.WriteNewMsg.Contents" time="0.712"/>
+  <testcase name="b1PicEdit" classname="Operation.WriteNewMsg.Contents" time="1.532"/>
+  <testcase name="b2PicDelete" classname="Operation.WriteNewMsg.Contents" time="9.189"/>
+  <testcase name="b3UploadAgain" classname="Operation.WriteNewMsg.Contents" time="3.012"/>
+  <testcase name="b4Preview" classname="Operation.WriteNewMsg.Contents" time="1.503"/>
+  <testcase name="b5VideoClick" classname="Operation.WriteNewMsg.Contents" time="7.247"/>
+  <testcase name="b6VideoEdit" classname="Operation.WriteNewMsg.Contents" time="0.666"/>
+  <testcase name="b7DeleteVideo" classname="Operation.WriteNewMsg.Contents" time="2.186"/>
+  <testcase name="b8UploadVideoAgain" classname="Operation.WriteNewMsg.Contents" time="2.185"/>
+  <testcase name="beforeMethod" classname="Operation.WriteNewMsg.Contents" time="0"/>
+  <testcase name="a1TitleText" classname="Operation.WriteNewMsg.PictureUpload" time="0.625"/>
+  <testcase name="a2Title30Chars" classname="Operation.WriteNewMsg.PictureUpload" time="0.965"/>
+  <testcase name="a3PictureSizeVerify" classname="Operation.WriteNewMsg.PictureUpload" time="1.061"/>
+  <testcase name="a4UploadingTextInput" classname="Operation.WriteNewMsg.PictureUpload" time="0.266"/>
+  <testcase name="a5UploadingScroll" classname="Operation.WriteNewMsg.PictureUpload" time="1.179"/>
+  <testcase name="a6UploadingClickOutside" classname="Operation.WriteNewMsg.PictureUpload" time="0.607"/>
+  <testcase name="a7UploadingClickFinish" classname="Operation.WriteNewMsg.PictureUpload" time="0.11"/>
+  <testcase name="a8UploadingClickX" classname="Operation.WriteNewMsg.PictureUpload" time="0.417"/>
+  <testcase name="a8UploadingCloseCancel" classname="Operation.WriteNewMsg.PictureUpload" time="6.426"/>
+  <testcase name="a9UploadingCloseConfirm" classname="Operation.WriteNewMsg.PictureUpload" time="1.499"/>
+  <testcase name="b1UploadingCloseConfirmUploadAgain" classname="Operation.WriteNewMsg.PictureUpload" time="1.863"/>
+  <testcase name="b2UploadedScroll" classname="Operation.WriteNewMsg.PictureUpload" time="0.847"/>
+  <testcase name="b3UloadedClickOutside" classname="Operation.WriteNewMsg.PictureUpload" time="0.639"/>
+  <testcase name="b4UploadedTextInput" classname="Operation.WriteNewMsg.PictureUpload" time="2.218"/>
+  <testcase name="b5UploadAgain" classname="Operation.WriteNewMsg.PictureUpload" time="1.807"/>
+  <testcase name="b6UploadedAgainTextVerify" classname="Operation.WriteNewMsg.PictureUpload" time="2.881"/>
+  <testcase name="b7UploadedAgainTwice" classname="Operation.WriteNewMsg.PictureUpload" time="1.87"/>
+  <testcase name="b8UploadedClose" classname="Operation.WriteNewMsg.PictureUpload" time="1.121"/>
+  <testcase name="b9UploadedCloseCancel" classname="Operation.WriteNewMsg.PictureUpload" time="1.186"/>
+  <testcase name="c1UploadedCloseConfirm" classname="Operation.WriteNewMsg.PictureUpload" time="1.277"/>
+  <testcase name="c2UploadedCloseConfirmUploadAgain" classname="Operation.WriteNewMsg.PictureUpload" time="1.882"/>
+  <testcase name="a1TitleAlert" classname="Operation.WriteNewMsg.VideoUpload" time="2.232"/>
+  <testcase name="a2Title30chars" classname="Operation.WriteNewMsg.VideoUpload" time="1.936"/>
+  <testcase name="a3WrongFormat" classname="Operation.WriteNewMsg.VideoUpload" time="2.054"/>
+  <testcase name="a4UploadingInputTitle" classname="Operation.WriteNewMsg.VideoUpload" time="2.01"/>
+  <testcase name="a5UploadingScroll" classname="Operation.WriteNewMsg.VideoUpload" time="1.889"/>
+  <testcase name="a6UploadingClickOutside" classname="Operation.WriteNewMsg.VideoUpload" time="2.703"/>
+  <testcase name="a7UploadingVerifyFinish" classname="Operation.WriteNewMsg.VideoUpload" time="0.101"/>
+  <testcase name="a8Uploading50Close" classname="Operation.WriteNewMsg.VideoUpload" time="1.859"/>
+  <testcase name="a9Uploading90Close" classname="Operation.WriteNewMsg.VideoUpload" time="2.332"/>
+  <testcase name="b1UploadingCancelX" classname="Operation.WriteNewMsg.VideoUpload" time="15.314"/>
+  <testcase name="b2UploadingConfirmClose" classname="Operation.WriteNewMsg.VideoUpload" time="0.652"/>
+  <testcase name="b3UploadAgain" classname="Operation.WriteNewMsg.VideoUpload" time="1.822"/>
+  <testcase name="b4UploadedScroll" classname="Operation.WriteNewMsg.VideoUpload" time="2.774"/>
+  <testcase name="b5UploadingClickOutside" classname="Operation.WriteNewMsg.VideoUpload" time="2.523"/>
+  <testcase name="b6UploadedClose" classname="Operation.WriteNewMsg.VideoUpload" time="2.525"/>
+  <testcase name="b7UploadedCancelClose" classname="Operation.WriteNewMsg.VideoUpload" time="2.711"/>
+  <testcase name="b8UploadedCloseConfirm" classname="Operation.WriteNewMsg.VideoUpload" time="5.035"/>
+  <testcase name="a1PreviewNotClickable" classname="Operation.WriteNewMsg.Preview" time="0.018"/>
+  <testcase name="a2PreviewClickable" classname="Operation.WriteNewMsg.Preview" time="0.38"/>
+  <testcase name="a3BacktoWrite" classname="Operation.WriteNewMsg.Preview" time="1.838"/>
+  <testcase name="a4VideoPreview" classname="Operation.WriteNewMsg.Preview" time="4.43"/>
+  <testcase name="a5PreviewCurrentLocation" classname="Operation.WriteNewMsg.Preview" time="1.23"/>
+  <testcase name="a6CurrentLocationWrite" classname="Operation.WriteNewMsg.Preview" time="1.681"/>
+  <testcase name="a7PreviewNotClickable" classname="Operation.WriteNewMsg.Preview" time="1.258"/>
+  <testcase name="a8ClickChangeObj" classname="Operation.WriteNewMsg.Preview" time="1.953"/>
+  <testcase name="a1DefaultDisplay" classname="Operation.History.MsgList" time="0">
+    <skipped/>
+    <system-out><![CDATA[[[FirefoxDriver: firefox on MAC (651c81db-0b52-2e43-978a-8657ff411be1)] -> xpath: .//*[@id='mcenter-logon']/div[1]/div[1]/input]
+[[FirefoxDriver: firefox on MAC (651c81db-0b52-2e43-978a-8657ff411be1)] -> xpath: .//*[@id='mcenter-logon']/div[1]/div[1]/input]
+[[FirefoxDriver: firefox on MAC (651c81db-0b52-2e43-978a-8657ff411be1)] -> xpath: .//*[@id='mcenter-logon']//div[text()='获取登录密码']]
+[[FirefoxDriver: firefox on MAC (651c81db-0b52-2e43-978a-8657ff411be1)] -> xpath: .//*[@id='mcenter-logon']/div[3]/div/input]
+[[FirefoxDriver: firefox on MAC (651c81db-0b52-2e43-978a-8657ff411be1)] -> xpath: .//*[@id='mcenter-logon']/div[3]/div/input]
+[[FirefoxDriver: firefox on MAC (651c81db-0b52-2e43-978a-8657ff411be1)] -> xpath: .//*[@id='mcenter-logon']/div[5]]
+方法运行前的URL是http://testmcenter.weixinxk.com/admin/pushmessage/history/index
+[[FirefoxDriver: firefox on MAC (651c81db-0b52-2e43-978a-8657ff411be1)] -> xpath: .//*[@id='app']/div/div[2]/div[2]/div[1]/div[2]/div[1]/div/div[1]]
+[[FirefoxDriver: firefox on MAC (651c81db-0b52-2e43-978a-8657ff411be1)] -> xpath: .//*[@id='app']/div/div[2]/div[2]/div[1]/div[2]/div[1]/div/div[1]/span/div]
+]]></system-out>
+    <system-err><![CDATA[1511917664713	Marionette	INFO	New connections will no longer be accepted
+1511917664964	geckodriver	INFO	geckodriver 0.19.0
+1511917664970	geckodriver	INFO	Listening on 127.0.0.1:33217
+1511917665034	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/tmp/rust_mozprofile.voUZTX19x9el"
+1511917665266	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1511917665554	Marionette	INFO	Enabled via --marionette
+2017-11-29 09:07:46.363 plugin-container[10517:1225111] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x972f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-11-29 09:07:46.365 plugin-container[10517:1225111] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9b03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1511917666879	Marionette	INFO	Listening on port 55452
+1511917666947	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511917666984	Marionette	DEBUG	Register listener.js for window 2147483649
+十一月 29, 2017 9:07:46 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: W3C
+1511917667401	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511917667481	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511917667481	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511917667948	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://testmcenter.weixinxk.com/admin/logon"
+1511917667954	Marionette	DEBUG	Received DOM event "pageshow" for "http://testmcenter.weixinxk.com/admin/logon"
+1511917668670	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1511917668952	Marionette	DEBUG	Received DOM event "beforeunload" for "http://testmcenter.weixinxk.com/admin/logon"
+1511917669022	Marionette	DEBUG	Received DOM event "pagehide" for "http://testmcenter.weixinxk.com/admin/logon"
+1511917669023	Marionette	DEBUG	Received DOM event "unload" for "http://testmcenter.weixinxk.com/admin/logon"
+1511917670119	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://testmcenter.weixinxk.com/admin/pushmessage/edit/index"
+1511917670646	Marionette	DEBUG	Received DOM event "pageshow" for "http://testmcenter.weixinxk.com/admin/pushmessage/edit/index"
+1511917672696	Marionette	DEBUG	Received DOM event "beforeunload" for "http://testmcenter.weixinxk.com/admin/pushmessage/edit/index"
+1511917672748	Marionette	DEBUG	Received DOM event "pagehide" for "http://testmcenter.weixinxk.com/admin/pushmessage/edit/index"
+1511917672748	Marionette	DEBUG	Received DOM event "unload" for "http://testmcenter.weixinxk.com/admin/pushmessage/edit/index"
+1511917673314	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://testmcenter.weixinxk.com/admin/pushmessage/history/index"
+1511917673323	Marionette	DEBUG	Received DOM event "pageshow" for "http://testmcenter.weixinxk.com/admin/pushmessage/history/index"
+[TestngRetryListener] [ERROR] Test Skipped
+]]></system-err>
+  </testcase>
+  <testcase name="a1DefaultDisplay" classname="Operation.History.MsgList" time="0">
+    <skipped/>
+    <system-out><![CDATA[方法运行前的URL是http://testmcenter.weixinxk.com/admin/pushmessage/history/index
+[[FirefoxDriver: firefox on MAC (651c81db-0b52-2e43-978a-8657ff411be1)] -> xpath: .//*[@id='app']/div/div[2]/div[2]/div[1]/div[2]/div[1]/div/div[1]]
+[[FirefoxDriver: firefox on MAC (651c81db-0b52-2e43-978a-8657ff411be1)] -> xpath: .//*[@id='app']/div/div[2]/div[2]/div[1]/div[2]/div[1]/div/div[1]/span/div]
+]]></system-out>
+    <system-err><![CDATA[1511917674518	Marionette	DEBUG	Received DOM event "beforeunload" for "http://testmcenter.weixinxk.com/admin/pushmessage/history/index"
+1511917674573	Marionette	DEBUG	Received DOM event "pagehide" for "http://testmcenter.weixinxk.com/admin/pushmessage/history/index"
+1511917674573	Marionette	DEBUG	Received DOM event "unload" for "http://testmcenter.weixinxk.com/admin/pushmessage/history/index"
+1511917674777	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://testmcenter.weixinxk.com/admin/pushmessage/history/index"
+1511917674785	Marionette	DEBUG	Received DOM event "pageshow" for "http://testmcenter.weixinxk.com/admin/pushmessage/history/index"
+[TestngRetryListener] [ERROR] Test Skipped
+]]></system-err>
+  </testcase>
+  <testcase name="a1DefaultDisplay" classname="Operation.History.MsgList" time="0.03"/>
+  <testcase name="a2DefaultType" classname="Operation.History.MsgList" time="0.03"/>
+  <testcase name="a3DefaulSequence" classname="Operation.History.MsgList" time="0.042"/>
+  <testcase name="a5RejectedSequence" classname="Operation.History.MsgList" time="2.335"/>
+  <testcase name="a7RejectedSequence" classname="Operation.History.MsgList" time="0.336"/>
+  <testcase name="a8ClickNextDrawer" classname="Operation.History.MsgList" time="0.9"/>
+  <testcase name="a9ClickLastDrawer" classname="Operation.History.MsgList" time="3.615"/>
+  <testcase name="b1LastDrawer" classname="Operation.History.MsgList" time="2.765"/>
+  <testcase name="b2EditNavigate" classname="Operation.History.MsgList" time="5.278"/>
+  <testcase name="a1back" classname="Operation.History.Navigate" time="1.324"/>
+  <testcase name="a2NewMsg" classname="Operation.History.Navigate" time="0.57"/>
+  <testcase name="a5Device" classname="Operation.History.Navigate" time="0.894"/>
+  <testcase name="a6Parnter" classname="Operation.History.Navigate" time="1.031"/>
+  <testcase name="b1Display25" classname="Operation.History.Navigate" time="1.743"/>
+  <testcase name="b2Display50" classname="Operation.History.Navigate" time="2.047"/>
+  <testcase name="b3Display100" classname="Operation.History.Navigate" time="2.061"/>
+  <testcase name="b4Page1" classname="Operation.History.Navigate" time="0.458"/>
+  <testcase name="b5Next" classname="Operation.History.Navigate" time="2.332"/>
+  <testcase name="b6LastPage" classname="Operation.History.Navigate" time="4.127"/>
+  <testcase name="zLogout" classname="Operation.History.Navigate" time="1.292"/>
+  <testcase name="a1default1" classname="Operation.NewsList" time="0.041"/>
+  <testcase name="a2default2" classname="Operation.NewsList" time="0.041"/>
+  <testcase name="a3default3" classname="Operation.NewsList" time="0.038"/>
+  <testcase name="a4NewMsgz_click" classname="Operation.NewsList" time="0.561"/>
+  <testcase name="a5leftnavi1" classname="Operation.NewsList" time="0.136"/>
+  <testcase name="a6history_click" classname="Operation.NewsList" time="1.01"/>
+  <testcase name="a7Album_click" classname="Operation.NewsList" time="2.018"/>
+  <testcase name="a8Device_click" classname="Operation.NewsList" time="1.894"/>
+  <testcase name="a9Partner_click" classname="Operation.NewsList" time="1.946"/>
+  <testcase name="b1pushObj" classname="Operation.NewsList" time="1.044"/>
+  <testcase name="b2pushObjNums" classname="Operation.NewsList" time="0.862"/>
+  <testcase name="b3apushObjAll" classname="Operation.NewsList" time="0.866"/>
+  <testcase name="b4WriteSelectAll" classname="Operation.NewsList" time="2.162"/>
+  <testcase name="b5pushObjCancelAll" classname="Operation.NewsList" time="2.651"/>
+  <testcase name="b6seleckallAfterSelectone" classname="Operation.NewsList" time="1.943"/>
+  <testcase name="b7textOfCancelAll" classname="Operation.NewsList" time="2.264"/>
+  <testcase name="b8WhiteAfterCancelAll" classname="Operation.NewsList" time="2.669"/>
+  <testcase name="b9WhiteSelectAllAgain" classname="Operation.NewsList" time="3.173"/>
+  <testcase name="c1WhiteSelectTwoPages" classname="Operation.NewsList" time="3.218"/>
+  <testcase name="c2WhiteSelectTwoPages" classname="Operation.NewsList" time="4.908"/>
+  <testcase name="c3WhiteSelectAll" classname="Operation.NewsList" time="2.628"/>
+  <testcase name="c4RecentPushCancel" classname="Operation.NewsList" time="2.212"/>
+  <testcase name="c6Page1Disabled" classname="Operation.NewsList" time="1.885"/>
+  <testcase name="c7PageLastDisabled" classname="Operation.NewsList" time="1.894"/>
+  <testcase name="c8PageNext" classname="Operation.NewsList" time="2.802"/>
+  <testcase name="c9LastPage" classname="Operation.NewsList" time="0.283"/>
+  <testcase name="zlogout" classname="Operation.NewsList" time="0.248"/>
+  <testcase name="phoneisLock" classname="LoginTest.LoginTest" time="0.912"/>
+  <testcase name="phoneisNull" classname="LoginTest.LoginTest" time="0.309"/>
+  <testcase name="phoneisWrongNumber" classname="LoginTest.LoginTest" time="0.888"/>
+  <testcase name="phoneisWrongPwd" classname="LoginTest.LoginTest" time="0.827"/>
+  <testcase name="phoneisWrongformat1" classname="LoginTest.LoginTest" time="0.88"/>
+  <testcase name="phoneisWrongformat2" classname="LoginTest.LoginTest" time="0.967"/>
+  <testcase name="phoneisWrongformat3" classname="LoginTest.LoginTest" time="0.897"/>
+</testsuite>

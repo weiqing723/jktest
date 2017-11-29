@@ -1,0 +1,1652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="133" passed="125">
+  <reporter-output>
+    <line>
+      <![CDATA[RunCount=2]]>
+    </line>
+    <line>
+      <![CDATA[RunCount=3]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="560996" started-at="2017-11-29T01:00:42Z" finished-at="2017-11-29T01:10:03Z">
+    <groups>
+    </groups>
+    <test name="Testlogin" duration-ms="2" started-at="2017-11-29T01:00:42Z" finished-at="2017-11-29T01:00:42Z">
+    </test> <!-- Testlogin -->
+    <test name="TestOperation" duration-ms="555964" started-at="2017-11-29T01:00:48Z" finished-at="2017-11-29T01:10:03Z">
+      <class name="LoginTest.LoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-11-29T09:00:48Z" finished-at="2017-11-29T09:00:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-11-29T09:00:48Z" finished-at="2017-11-29T09:00:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="beforeClass" is-config="true" duration-ms="4530" started-at="2017-11-29T09:00:48Z" finished-at="2017-11-29T09:00:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="getUrl()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="getUrl" duration-ms="11" started-at="2017-11-29T09:00:52Z" finished-at="2017-11-29T09:00:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:00:52Z" finished-at="2017-11-29T09:00:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:00:52Z" finished-at="2017-11-29T09:00:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-29T09:09:57Z" finished-at="2017-11-29T09:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="phoneisLock(java.lang.String)[pri:6, instance:LoginTest.LoginTest@e45f292]" name="phoneisLock" duration-ms="911" started-at="2017-11-29T09:09:57Z" finished-at="2017-11-29T09:09:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13123456701]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneisLock -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-29T09:09:58Z" finished-at="2017-11-29T09:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:58Z" finished-at="2017-11-29T09:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="phoneisNull()[pri:1, instance:LoginTest.LoginTest@e45f292]" name="phoneisNull" duration-ms="309" started-at="2017-11-29T09:09:58Z" finished-at="2017-11-29T09:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneisNull -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:59Z" finished-at="2017-11-29T09:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-29T09:09:59Z" finished-at="2017-11-29T09:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="phoneisWrongNumber()[pri:5, instance:LoginTest.LoginTest@e45f292]" name="phoneisWrongNumber" duration-ms="888" started-at="2017-11-29T09:09:59Z" finished-at="2017-11-29T09:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneisWrongNumber -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:00Z" finished-at="2017-11-29T09:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:00Z" finished-at="2017-11-29T09:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="phoneisWrongPwd()[pri:9, instance:LoginTest.LoginTest@e45f292]" name="phoneisWrongPwd" duration-ms="826" started-at="2017-11-29T09:10:00Z" finished-at="2017-11-29T09:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneisWrongPwd -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:00Z" finished-at="2017-11-29T09:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="phoneisWrongformat1()[pri:2, instance:LoginTest.LoginTest@e45f292]" name="phoneisWrongformat1" duration-ms="880" started-at="2017-11-29T09:10:00Z" finished-at="2017-11-29T09:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneisWrongformat1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:00Z" finished-at="2017-11-29T09:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:01Z" finished-at="2017-11-29T09:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:01Z" finished-at="2017-11-29T09:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="phoneisWrongformat2()[pri:3, instance:LoginTest.LoginTest@e45f292]" name="phoneisWrongformat2" duration-ms="966" started-at="2017-11-29T09:10:01Z" finished-at="2017-11-29T09:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneisWrongformat2 -->
+        <test-method status="PASS" signature="phoneisWrongformat3()[pri:4, instance:LoginTest.LoginTest@e45f292]" name="phoneisWrongformat3" duration-ms="896" started-at="2017-11-29T09:10:02Z" finished-at="2017-11-29T09:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneisWrongformat3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:02Z" finished-at="2017-11-29T09:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:02Z" finished-at="2017-11-29T09:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="afterClass" is-config="true" duration-ms="290" started-at="2017-11-29T09:10:03Z" finished-at="2017-11-29T09:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:03Z" finished-at="2017-11-29T09:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- LoginTest.LoginTest -->
+      <class name="Operation.NewsList">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeClass" is-config="true" duration-ms="7476" started-at="2017-11-29T09:09:04Z" finished-at="2017-11-29T09:09:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13123456707]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="a1default1()[pri:1, instance:Operation.NewsList@5f2108b5]" name="a1default1" duration-ms="42" started-at="2017-11-29T09:09:12Z" finished-at="2017-11-29T09:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a1default1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:12Z" finished-at="2017-11-29T09:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:12Z" finished-at="2017-11-29T09:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="a2default2()[pri:1, instance:Operation.NewsList@5f2108b5]" name="a2default2" duration-ms="41" started-at="2017-11-29T09:09:12Z" finished-at="2017-11-29T09:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a2default2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:12Z" finished-at="2017-11-29T09:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:12Z" finished-at="2017-11-29T09:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a3default3()[pri:1, instance:Operation.NewsList@5f2108b5]" name="a3default3" duration-ms="37" started-at="2017-11-29T09:09:12Z" finished-at="2017-11-29T09:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a3default3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:12Z" finished-at="2017-11-29T09:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="a4NewMsgz_click()[pri:1, instance:Operation.NewsList@5f2108b5]" name="a4NewMsgz_click" duration-ms="561" started-at="2017-11-29T09:09:12Z" finished-at="2017-11-29T09:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a4NewMsgz_click -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:12Z" finished-at="2017-11-29T09:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:12Z" finished-at="2017-11-29T09:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:13Z" finished-at="2017-11-29T09:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="a5leftnavi1()[pri:2, instance:Operation.NewsList@5f2108b5]" name="a5leftnavi1" duration-ms="136" started-at="2017-11-29T09:09:13Z" finished-at="2017-11-29T09:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a5leftnavi1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:13Z" finished-at="2017-11-29T09:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:13Z" finished-at="2017-11-29T09:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="a6history_click()[pri:3, instance:Operation.NewsList@5f2108b5]" name="a6history_click" duration-ms="1008" started-at="2017-11-29T09:09:13Z" finished-at="2017-11-29T09:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a6history_click -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:13Z" finished-at="2017-11-29T09:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:14Z" finished-at="2017-11-29T09:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="a7Album_click()[pri:4, instance:Operation.NewsList@5f2108b5]" name="a7Album_click" duration-ms="2019" started-at="2017-11-29T09:09:14Z" finished-at="2017-11-29T09:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a7Album_click -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:14Z" finished-at="2017-11-29T09:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:16Z" finished-at="2017-11-29T09:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="a8Device_click()[pri:5, instance:Operation.NewsList@5f2108b5]" name="a8Device_click" duration-ms="1893" started-at="2017-11-29T09:09:16Z" finished-at="2017-11-29T09:09:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a8Device_click -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:16Z" finished-at="2017-11-29T09:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-29T09:09:18Z" finished-at="2017-11-29T09:09:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:18Z" finished-at="2017-11-29T09:09:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a9Partner_click()[pri:6, instance:Operation.NewsList@5f2108b5]" name="a9Partner_click" duration-ms="1946" started-at="2017-11-29T09:09:18Z" finished-at="2017-11-29T09:09:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a9Partner_click -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-29T09:09:20Z" finished-at="2017-11-29T09:09:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:20Z" finished-at="2017-11-29T09:09:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b1pushObj()[pri:7, instance:Operation.NewsList@5f2108b5]" name="b1pushObj" duration-ms="1044" started-at="2017-11-29T09:09:20Z" finished-at="2017-11-29T09:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b1pushObj -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:21Z" finished-at="2017-11-29T09:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:21Z" finished-at="2017-11-29T09:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b2pushObjNums()[pri:7, instance:Operation.NewsList@5f2108b5]" name="b2pushObjNums" duration-ms="862" started-at="2017-11-29T09:09:21Z" finished-at="2017-11-29T09:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b2pushObjNums -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:21Z" finished-at="2017-11-29T09:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:21Z" finished-at="2017-11-29T09:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b3apushObjAll()[pri:8, instance:Operation.NewsList@5f2108b5]" name="b3apushObjAll" duration-ms="866" started-at="2017-11-29T09:09:21Z" finished-at="2017-11-29T09:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b3apushObjAll -->
+        <test-method status="PASS" signature="b4WriteSelectAll()[pri:8, instance:Operation.NewsList@5f2108b5]" name="b4WriteSelectAll" duration-ms="2162" started-at="2017-11-29T09:09:22Z" finished-at="2017-11-29T09:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b4WriteSelectAll -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:22Z" finished-at="2017-11-29T09:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:22Z" finished-at="2017-11-29T09:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:24Z" finished-at="2017-11-29T09:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:24Z" finished-at="2017-11-29T09:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="b5pushObjCancelAll()[pri:8, instance:Operation.NewsList@5f2108b5]" name="b5pushObjCancelAll" duration-ms="2651" started-at="2017-11-29T09:09:24Z" finished-at="2017-11-29T09:09:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b5pushObjCancelAll -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:27Z" finished-at="2017-11-29T09:09:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="b6seleckallAfterSelectone()[pri:8, instance:Operation.NewsList@5f2108b5]" name="b6seleckallAfterSelectone" duration-ms="1943" started-at="2017-11-29T09:09:27Z" finished-at="2017-11-29T09:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b6seleckallAfterSelectone -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:27Z" finished-at="2017-11-29T09:09:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-29T09:09:29Z" finished-at="2017-11-29T09:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="b7textOfCancelAll()[pri:9, instance:Operation.NewsList@5f2108b5]" name="b7textOfCancelAll" duration-ms="2265" started-at="2017-11-29T09:09:29Z" finished-at="2017-11-29T09:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b7textOfCancelAll -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:29Z" finished-at="2017-11-29T09:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:31Z" finished-at="2017-11-29T09:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-29T09:09:31Z" finished-at="2017-11-29T09:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b8WhiteAfterCancelAll()[pri:9, instance:Operation.NewsList@5f2108b5]" name="b8WhiteAfterCancelAll" duration-ms="2669" started-at="2017-11-29T09:09:31Z" finished-at="2017-11-29T09:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b8WhiteAfterCancelAll -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:34Z" finished-at="2017-11-29T09:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:34Z" finished-at="2017-11-29T09:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b9WhiteSelectAllAgain()[pri:9, instance:Operation.NewsList@5f2108b5]" name="b9WhiteSelectAllAgain" duration-ms="3173" started-at="2017-11-29T09:09:34Z" finished-at="2017-11-29T09:09:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b9WhiteSelectAllAgain -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-29T09:09:37Z" finished-at="2017-11-29T09:09:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:37Z" finished-at="2017-11-29T09:09:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="c1WhiteSelectTwoPages()[pri:9, instance:Operation.NewsList@5f2108b5]" name="c1WhiteSelectTwoPages" duration-ms="3218" started-at="2017-11-29T09:09:37Z" finished-at="2017-11-29T09:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c1WhiteSelectTwoPages -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:40Z" finished-at="2017-11-29T09:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:40Z" finished-at="2017-11-29T09:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="c2WhiteSelectTwoPages()[pri:9, instance:Operation.NewsList@5f2108b5]" name="c2WhiteSelectTwoPages" duration-ms="4907" started-at="2017-11-29T09:09:40Z" finished-at="2017-11-29T09:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c2WhiteSelectTwoPages -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:45Z" finished-at="2017-11-29T09:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="c3WhiteSelectAll()[pri:9, instance:Operation.NewsList@5f2108b5]" name="c3WhiteSelectAll" duration-ms="2628" started-at="2017-11-29T09:09:45Z" finished-at="2017-11-29T09:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c3WhiteSelectAll -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:45Z" finished-at="2017-11-29T09:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:48Z" finished-at="2017-11-29T09:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="c4RecentPushCancel()[pri:9, instance:Operation.NewsList@5f2108b5]" name="c4RecentPushCancel" duration-ms="2212" started-at="2017-11-29T09:09:48Z" finished-at="2017-11-29T09:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c4RecentPushCancel -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:48Z" finished-at="2017-11-29T09:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:50Z" finished-at="2017-11-29T09:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="c6Page1Disabled()[pri:10, instance:Operation.NewsList@5f2108b5]" name="c6Page1Disabled" duration-ms="1885" started-at="2017-11-29T09:09:50Z" finished-at="2017-11-29T09:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c6Page1Disabled -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:50Z" finished-at="2017-11-29T09:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:52Z" finished-at="2017-11-29T09:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:52Z" finished-at="2017-11-29T09:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="c7PageLastDisabled()[pri:10, instance:Operation.NewsList@5f2108b5]" name="c7PageLastDisabled" duration-ms="1894" started-at="2017-11-29T09:09:52Z" finished-at="2017-11-29T09:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c7PageLastDisabled -->
+        <test-method status="PASS" signature="c8PageNext()[pri:10, instance:Operation.NewsList@5f2108b5]" name="c8PageNext" duration-ms="2801" started-at="2017-11-29T09:09:54Z" finished-at="2017-11-29T09:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c8PageNext -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:54Z" finished-at="2017-11-29T09:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:54Z" finished-at="2017-11-29T09:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:57Z" finished-at="2017-11-29T09:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:57Z" finished-at="2017-11-29T09:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="c9LastPage()[pri:10, instance:Operation.NewsList@5f2108b5]" name="c9LastPage" duration-ms="283" started-at="2017-11-29T09:09:57Z" finished-at="2017-11-29T09:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c9LastPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:57Z" finished-at="2017-11-29T09:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:57Z" finished-at="2017-11-29T09:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="zlogout()[pri:99, instance:Operation.NewsList@5f2108b5]" name="zlogout" duration-ms="248" started-at="2017-11-29T09:09:57Z" finished-at="2017-11-29T09:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zlogout -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:57Z" finished-at="2017-11-29T09:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterClass" is-config="true" duration-ms="237" started-at="2017-11-29T09:09:57Z" finished-at="2017-11-29T09:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Operation.NewsList -->
+      <class name="Operation.WriteNewMsg.Contents">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeSuite" is-config="true" duration-ms="6" started-at="2017-11-29T09:00:42Z" finished-at="2017-11-29T09:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2017-11-29T09:00:42Z" finished-at="2017-11-29T09:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2017-11-29T09:00:42Z" finished-at="2017-11-29T09:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Operation.History.MsgList@27c20538]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2017-11-29T09:00:42Z" finished-at="2017-11-29T09:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2017-11-29T09:00:42Z" finished-at="2017-11-29T09:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Operation.NewsList@5f2108b5]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2017-11-29T09:00:42Z" finished-at="2017-11-29T09:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2017-11-29T09:00:42Z" finished-at="2017-11-29T09:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2017-11-29T09:00:42Z" finished-at="2017-11-29T09:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2017-11-29T09:00:42Z" finished-at="2017-11-29T09:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeClass" is-config="true" duration-ms="8241" started-at="2017-11-29T09:02:38Z" finished-at="2017-11-29T09:02:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13123456707]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-29T09:02:47Z" finished-at="2017-11-29T09:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="aTitleLength14()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="aTitleLength14" duration-ms="178" started-at="2017-11-29T09:02:47Z" finished-at="2017-11-29T09:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aTitleLength14 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:47Z" finished-at="2017-11-29T09:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:47Z" finished-at="2017-11-29T09:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="aTitleNull()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="aTitleNull" duration-ms="688" started-at="2017-11-29T09:02:47Z" finished-at="2017-11-29T09:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aTitleNull -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:47Z" finished-at="2017-11-29T09:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="aaDefaultLabel()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="aaDefaultLabel" duration-ms="119" started-at="2017-11-29T09:02:47Z" finished-at="2017-11-29T09:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaDefaultLabel -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:47Z" finished-at="2017-11-29T09:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:48Z" finished-at="2017-11-29T09:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="abChangeLabel()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="abChangeLabel" duration-ms="804" started-at="2017-11-29T09:02:48Z" finished-at="2017-11-29T09:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abChangeLabel -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:48Z" finished-at="2017-11-29T09:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:48Z" finished-at="2017-11-29T09:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="acDefaultLabel()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="acDefaultLabel" duration-ms="350" started-at="2017-11-29T09:02:48Z" finished-at="2017-11-29T09:02:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acDefaultLabel -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:48Z" finished-at="2017-11-29T09:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:49Z" finished-at="2017-11-29T09:02:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:49Z" finished-at="2017-11-29T09:02:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="b0PicClick()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="b0PicClick" duration-ms="1570" started-at="2017-11-29T09:02:49Z" finished-at="2017-11-29T09:02:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b0PicClick -->
+        <test-method status="PASS" signature="b0TextareaCount()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="b0TextareaCount" duration-ms="712" started-at="2017-11-29T09:02:50Z" finished-at="2017-11-29T09:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b0TextareaCount -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:50Z" finished-at="2017-11-29T09:02:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:50Z" finished-at="2017-11-29T09:02:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:51Z" finished-at="2017-11-29T09:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b1PicEdit()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="b1PicEdit" duration-ms="1532" started-at="2017-11-29T09:02:51Z" finished-at="2017-11-29T09:02:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b1PicEdit -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:51Z" finished-at="2017-11-29T09:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="b2PicDelete()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="b2PicDelete" duration-ms="9189" started-at="2017-11-29T09:02:53Z" finished-at="2017-11-29T09:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b2PicDelete -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:53Z" finished-at="2017-11-29T09:02:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:53Z" finished-at="2017-11-29T09:02:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b3UploadAgain()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="b3UploadAgain" duration-ms="3012" started-at="2017-11-29T09:03:02Z" finished-at="2017-11-29T09:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b3UploadAgain -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:03:02Z" finished-at="2017-11-29T09:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:03:02Z" finished-at="2017-11-29T09:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:03:05Z" finished-at="2017-11-29T09:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:03:05Z" finished-at="2017-11-29T09:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="b4Preview()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="b4Preview" duration-ms="1502" started-at="2017-11-29T09:03:05Z" finished-at="2017-11-29T09:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b4Preview -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-29T09:03:06Z" finished-at="2017-11-29T09:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="b5VideoClick()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="b5VideoClick" duration-ms="7247" started-at="2017-11-29T09:03:06Z" finished-at="2017-11-29T09:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b5VideoClick -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:03:06Z" finished-at="2017-11-29T09:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:03:14Z" finished-at="2017-11-29T09:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:03:14Z" finished-at="2017-11-29T09:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="b6VideoEdit()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="b6VideoEdit" duration-ms="667" started-at="2017-11-29T09:03:14Z" finished-at="2017-11-29T09:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b6VideoEdit -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:03:14Z" finished-at="2017-11-29T09:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="b7DeleteVideo()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="b7DeleteVideo" duration-ms="2185" started-at="2017-11-29T09:03:14Z" finished-at="2017-11-29T09:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b7DeleteVideo -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:03:14Z" finished-at="2017-11-29T09:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:03:16Z" finished-at="2017-11-29T09:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="b8UploadVideoAgain()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="b8UploadVideoAgain" duration-ms="2184" started-at="2017-11-29T09:03:16Z" finished-at="2017-11-29T09:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b8UploadVideoAgain -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:03:16Z" finished-at="2017-11-29T09:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:03:19Z" finished-at="2017-11-29T09:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:03:19Z" finished-at="2017-11-29T09:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="beforeMethod" duration-ms="0" started-at="2017-11-29T09:03:19Z" finished-at="2017-11-29T09:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:03:19Z" finished-at="2017-11-29T09:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterClass" is-config="true" duration-ms="218" started-at="2017-11-29T09:03:19Z" finished-at="2017-11-29T09:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:03Z" finished-at="2017-11-29T09:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:03Z" finished-at="2017-11-29T09:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:03Z" finished-at="2017-11-29T09:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:03Z" finished-at="2017-11-29T09:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Operation.History.MsgList@27c20538]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:03Z" finished-at="2017-11-29T09:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:03Z" finished-at="2017-11-29T09:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:03Z" finished-at="2017-11-29T09:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:03Z" finished-at="2017-11-29T09:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:03Z" finished-at="2017-11-29T09:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Operation.WriteNewMsg.Contents@3f49dace]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:08Z" finished-at="2017-11-29T09:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:08Z" finished-at="2017-11-29T09:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:08Z" finished-at="2017-11-29T09:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Operation.History.MsgList@27c20538]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:08Z" finished-at="2017-11-29T09:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Operation.NewsList@5f2108b5]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:08Z" finished-at="2017-11-29T09:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:LoginTest.LoginTest@e45f292]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:08Z" finished-at="2017-11-29T09:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:08Z" finished-at="2017-11-29T09:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:08Z" finished-at="2017-11-29T09:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-11-29T09:10:08Z" finished-at="2017-11-29T09:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Operation.WriteNewMsg.Contents -->
+      <class name="Operation.WriteNewMsg.Preview">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="beforeClass" is-config="true" duration-ms="9351" started-at="2017-11-29T09:07:22Z" finished-at="2017-11-29T09:07:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13123456707]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="a1PreviewNotClickable()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="a1PreviewNotClickable" duration-ms="18" started-at="2017-11-29T09:07:31Z" finished-at="2017-11-29T09:07:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a1PreviewNotClickable -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:31Z" finished-at="2017-11-29T09:07:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:31Z" finished-at="2017-11-29T09:07:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a2PreviewClickable()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="a2PreviewClickable" duration-ms="381" started-at="2017-11-29T09:07:31Z" finished-at="2017-11-29T09:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a2PreviewClickable -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:31Z" finished-at="2017-11-29T09:07:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:32Z" finished-at="2017-11-29T09:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a3BacktoWrite()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="a3BacktoWrite" duration-ms="1838" started-at="2017-11-29T09:07:32Z" finished-at="2017-11-29T09:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a3BacktoWrite -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:32Z" finished-at="2017-11-29T09:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:34Z" finished-at="2017-11-29T09:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:34Z" finished-at="2017-11-29T09:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="a4VideoPreview()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="a4VideoPreview" duration-ms="4430" started-at="2017-11-29T09:07:34Z" finished-at="2017-11-29T09:07:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a4VideoPreview -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:38Z" finished-at="2017-11-29T09:07:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:38Z" finished-at="2017-11-29T09:07:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a5PreviewCurrentLocation()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="a5PreviewCurrentLocation" duration-ms="1229" started-at="2017-11-29T09:07:38Z" finished-at="2017-11-29T09:07:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a5PreviewCurrentLocation -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:39Z" finished-at="2017-11-29T09:07:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:39Z" finished-at="2017-11-29T09:07:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a6CurrentLocationWrite()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="a6CurrentLocationWrite" duration-ms="1681" started-at="2017-11-29T09:07:39Z" finished-at="2017-11-29T09:07:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a6CurrentLocationWrite -->
+        <test-method status="PASS" signature="a7PreviewNotClickable()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="a7PreviewNotClickable" duration-ms="1259" started-at="2017-11-29T09:07:41Z" finished-at="2017-11-29T09:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a7PreviewNotClickable -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:41Z" finished-at="2017-11-29T09:07:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:41Z" finished-at="2017-11-29T09:07:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:42Z" finished-at="2017-11-29T09:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:42Z" finished-at="2017-11-29T09:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a8ClickChangeObj()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="a8ClickChangeObj" duration-ms="1954" started-at="2017-11-29T09:07:42Z" finished-at="2017-11-29T09:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a8ClickChangeObj -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-29T09:07:44Z" finished-at="2017-11-29T09:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Operation.WriteNewMsg.Preview@56ac3a89]" name="afterClass" is-config="true" duration-ms="239" started-at="2017-11-29T09:07:44Z" finished-at="2017-11-29T09:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Operation.WriteNewMsg.Preview -->
+      <class name="Operation.WriteNewMsg.PictureUpload">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeClass" is-config="true" duration-ms="6976" started-at="2017-11-29T09:03:19Z" finished-at="2017-11-29T09:03:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13123456707]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="4448" started-at="2017-11-29T09:03:26Z" finished-at="2017-11-29T09:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a1TitleText()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="a1TitleText" duration-ms="625" started-at="2017-11-29T09:03:30Z" finished-at="2017-11-29T09:03:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a1TitleText -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="2343" started-at="2017-11-29T09:03:31Z" finished-at="2017-11-29T09:03:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a2Title30Chars()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="a2Title30Chars" duration-ms="965" started-at="2017-11-29T09:03:33Z" finished-at="2017-11-29T09:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a2Title30Chars -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="4342" started-at="2017-11-29T09:03:34Z" finished-at="2017-11-29T09:03:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a3PictureSizeVerify()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="a3PictureSizeVerify" duration-ms="1061" started-at="2017-11-29T09:03:38Z" finished-at="2017-11-29T09:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a3PictureSizeVerify -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="4398" started-at="2017-11-29T09:03:40Z" finished-at="2017-11-29T09:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a4UploadingTextInput()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="a4UploadingTextInput" duration-ms="265" started-at="2017-11-29T09:03:44Z" finished-at="2017-11-29T09:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a4UploadingTextInput -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="4498" started-at="2017-11-29T09:03:44Z" finished-at="2017-11-29T09:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a5UploadingScroll()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="a5UploadingScroll" duration-ms="1179" started-at="2017-11-29T09:03:49Z" finished-at="2017-11-29T09:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a5UploadingScroll -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="2541" started-at="2017-11-29T09:03:50Z" finished-at="2017-11-29T09:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a6UploadingClickOutside()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="a6UploadingClickOutside" duration-ms="608" started-at="2017-11-29T09:03:52Z" finished-at="2017-11-29T09:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a6UploadingClickOutside -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="2508" started-at="2017-11-29T09:03:53Z" finished-at="2017-11-29T09:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a7UploadingClickFinish()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="a7UploadingClickFinish" duration-ms="110" started-at="2017-11-29T09:03:56Z" finished-at="2017-11-29T09:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a7UploadingClickFinish -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="4474" started-at="2017-11-29T09:03:56Z" finished-at="2017-11-29T09:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a8UploadingClickX()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="a8UploadingClickX" duration-ms="417" started-at="2017-11-29T09:04:00Z" finished-at="2017-11-29T09:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a8UploadingClickX -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="4407" started-at="2017-11-29T09:04:01Z" finished-at="2017-11-29T09:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a8UploadingCloseCancel()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="a8UploadingCloseCancel" duration-ms="6427" started-at="2017-11-29T09:04:05Z" finished-at="2017-11-29T09:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a8UploadingCloseCancel -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="2410" started-at="2017-11-29T09:04:11Z" finished-at="2017-11-29T09:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a9UploadingCloseConfirm()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="a9UploadingCloseConfirm" duration-ms="1498" started-at="2017-11-29T09:04:14Z" finished-at="2017-11-29T09:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a9UploadingCloseConfirm -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="4630" started-at="2017-11-29T09:04:15Z" finished-at="2017-11-29T09:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b1UploadingCloseConfirmUploadAgain()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="b1UploadingCloseConfirmUploadAgain" duration-ms="1863" started-at="2017-11-29T09:04:20Z" finished-at="2017-11-29T09:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b1UploadingCloseConfirmUploadAgain -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="4477" started-at="2017-11-29T09:04:22Z" finished-at="2017-11-29T09:04:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b2UploadedScroll()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="b2UploadedScroll" duration-ms="847" started-at="2017-11-29T09:04:26Z" finished-at="2017-11-29T09:04:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b2UploadedScroll -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="4452" started-at="2017-11-29T09:04:27Z" finished-at="2017-11-29T09:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b3UloadedClickOutside()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="b3UloadedClickOutside" duration-ms="639" started-at="2017-11-29T09:04:32Z" finished-at="2017-11-29T09:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b3UloadedClickOutside -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="4472" started-at="2017-11-29T09:04:32Z" finished-at="2017-11-29T09:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b4UploadedTextInput()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="b4UploadedTextInput" duration-ms="2218" started-at="2017-11-29T09:04:37Z" finished-at="2017-11-29T09:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b4UploadedTextInput -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="2487" started-at="2017-11-29T09:04:39Z" finished-at="2017-11-29T09:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b5UploadAgain()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="b5UploadAgain" duration-ms="1807" started-at="2017-11-29T09:04:41Z" finished-at="2017-11-29T09:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b5UploadAgain -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="4458" started-at="2017-11-29T09:04:43Z" finished-at="2017-11-29T09:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b6UploadedAgainTextVerify()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="b6UploadedAgainTextVerify" duration-ms="2881" started-at="2017-11-29T09:04:48Z" finished-at="2017-11-29T09:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b6UploadedAgainTextVerify -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="2680" started-at="2017-11-29T09:04:51Z" finished-at="2017-11-29T09:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b7UploadedAgainTwice()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="b7UploadedAgainTwice" duration-ms="1869" started-at="2017-11-29T09:04:53Z" finished-at="2017-11-29T09:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b7UploadedAgainTwice -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="2564" started-at="2017-11-29T09:04:55Z" finished-at="2017-11-29T09:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b8UploadedClose()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="b8UploadedClose" duration-ms="1119" started-at="2017-11-29T09:04:58Z" finished-at="2017-11-29T09:04:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b8UploadedClose -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="2537" started-at="2017-11-29T09:04:59Z" finished-at="2017-11-29T09:05:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b9UploadedCloseCancel()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="b9UploadedCloseCancel" duration-ms="1187" started-at="2017-11-29T09:05:01Z" finished-at="2017-11-29T09:05:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b9UploadedCloseCancel -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="2999" started-at="2017-11-29T09:05:02Z" finished-at="2017-11-29T09:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="c1UploadedCloseConfirm()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="c1UploadedCloseConfirm" duration-ms="1278" started-at="2017-11-29T09:05:05Z" finished-at="2017-11-29T09:05:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c1UploadedCloseConfirm -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="beforeMethod" is-config="true" duration-ms="2698" started-at="2017-11-29T09:05:07Z" finished-at="2017-11-29T09:05:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="c2UploadedCloseConfirmUploadAgain()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="c2UploadedCloseConfirmUploadAgain" duration-ms="1883" started-at="2017-11-29T09:05:09Z" finished-at="2017-11-29T09:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c2UploadedCloseConfirmUploadAgain -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Operation.WriteNewMsg.PictureUpload@1e397ed7]" name="afterClass" is-config="true" duration-ms="290" started-at="2017-11-29T09:05:11Z" finished-at="2017-11-29T09:05:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Operation.WriteNewMsg.PictureUpload -->
+      <class name="Operation.History.MsgList">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Operation.History.MsgList@27c20538]" name="beforeClass" is-config="true" duration-ms="7742" started-at="2017-11-29T09:07:44Z" finished-at="2017-11-29T09:07:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13132919225]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="beforeMethod" is-config="true" duration-ms="1768" started-at="2017-11-29T09:07:52Z" finished-at="2017-11-29T09:07:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:54Z" finished-at="2017-11-29T09:07:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="beforeMethod" is-config="true" duration-ms="1669" started-at="2017-11-29T09:07:54Z" finished-at="2017-11-29T09:07:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:56Z" finished-at="2017-11-29T09:07:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="beforeMethod" is-config="true" duration-ms="1401" started-at="2017-11-29T09:07:56Z" finished-at="2017-11-29T09:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a1DefaultDisplay()[pri:0, instance:Operation.History.MsgList@27c20538]" name="a1DefaultDisplay" duration-ms="30" started-at="2017-11-29T09:07:57Z" finished-at="2017-11-29T09:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a1DefaultDisplay -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="beforeMethod" is-config="true" duration-ms="1336" started-at="2017-11-29T09:07:57Z" finished-at="2017-11-29T09:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:57Z" finished-at="2017-11-29T09:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="a2DefaultType()[pri:0, instance:Operation.History.MsgList@27c20538]" name="a2DefaultType" duration-ms="29" started-at="2017-11-29T09:07:59Z" finished-at="2017-11-29T09:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a2DefaultType -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="beforeMethod" is-config="true" duration-ms="1459" started-at="2017-11-29T09:07:59Z" finished-at="2017-11-29T09:08:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:07:59Z" finished-at="2017-11-29T09:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="a3DefaulSequence()[pri:0, instance:Operation.History.MsgList@27c20538]" name="a3DefaulSequence" duration-ms="42" started-at="2017-11-29T09:08:00Z" finished-at="2017-11-29T09:08:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a3DefaulSequence -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:08:00Z" finished-at="2017-11-29T09:08:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="beforeMethod" is-config="true" duration-ms="1302" started-at="2017-11-29T09:08:00Z" finished-at="2017-11-29T09:08:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a5RejectedSequence()[pri:0, instance:Operation.History.MsgList@27c20538]" name="a5RejectedSequence" duration-ms="2335" started-at="2017-11-29T09:08:01Z" finished-at="2017-11-29T09:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a5RejectedSequence -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:08:04Z" finished-at="2017-11-29T09:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="beforeMethod" is-config="true" duration-ms="1308" started-at="2017-11-29T09:08:04Z" finished-at="2017-11-29T09:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a7RejectedSequence()[pri:0, instance:Operation.History.MsgList@27c20538]" name="a7RejectedSequence" duration-ms="336" started-at="2017-11-29T09:08:05Z" finished-at="2017-11-29T09:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a7RejectedSequence -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="beforeMethod" is-config="true" duration-ms="1291" started-at="2017-11-29T09:08:05Z" finished-at="2017-11-29T09:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:08:05Z" finished-at="2017-11-29T09:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="a8ClickNextDrawer()[pri:0, instance:Operation.History.MsgList@27c20538]" name="a8ClickNextDrawer" duration-ms="901" started-at="2017-11-29T09:08:07Z" finished-at="2017-11-29T09:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a8ClickNextDrawer -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="beforeMethod" is-config="true" duration-ms="1376" started-at="2017-11-29T09:08:08Z" finished-at="2017-11-29T09:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:08:08Z" finished-at="2017-11-29T09:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="a9ClickLastDrawer()[pri:0, instance:Operation.History.MsgList@27c20538]" name="a9ClickLastDrawer" duration-ms="3616" started-at="2017-11-29T09:08:09Z" finished-at="2017-11-29T09:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a9ClickLastDrawer -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:08:13Z" finished-at="2017-11-29T09:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="beforeMethod" is-config="true" duration-ms="1296" started-at="2017-11-29T09:08:13Z" finished-at="2017-11-29T09:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b1LastDrawer()[pri:0, instance:Operation.History.MsgList@27c20538]" name="b1LastDrawer" duration-ms="2764" started-at="2017-11-29T09:08:14Z" finished-at="2017-11-29T09:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b1LastDrawer -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:08:17Z" finished-at="2017-11-29T09:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="beforeMethod" is-config="true" duration-ms="1318" started-at="2017-11-29T09:08:17Z" finished-at="2017-11-29T09:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b2EditNavigate()[pri:0, instance:Operation.History.MsgList@27c20538]" name="b2EditNavigate" duration-ms="5278" started-at="2017-11-29T09:08:18Z" finished-at="2017-11-29T09:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b2EditNavigate -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.MsgList@27c20538]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:08:23Z" finished-at="2017-11-29T09:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Operation.History.MsgList@27c20538]" name="afterClass" is-config="true" duration-ms="232" started-at="2017-11-29T09:08:23Z" finished-at="2017-11-29T09:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Operation.History.MsgList -->
+      <class name="Operation.WriteNewMsg.Navigate">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="beforeClass" is-config="true" duration-ms="72398" started-at="2017-11-29T09:00:52Z" finished-at="2017-11-29T09:02:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13123456707]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="beforeMethod" is-config="true" duration-ms="3192" started-at="2017-11-29T09:02:04Z" finished-at="2017-11-29T09:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="aBackBtn()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="aBackBtn" duration-ms="404" started-at="2017-11-29T09:02:08Z" finished-at="2017-11-29T09:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aBackBtn -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-29T09:02:08Z" finished-at="2017-11-29T09:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="beforeMethod" is-config="true" duration-ms="3156" started-at="2017-11-29T09:02:08Z" finished-at="2017-11-29T09:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="bNewMsgClk()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="bNewMsgClk" duration-ms="730" started-at="2017-11-29T09:02:11Z" finished-at="2017-11-29T09:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bNewMsgClk -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:12Z" finished-at="2017-11-29T09:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="beforeMethod" is-config="true" duration-ms="3061" started-at="2017-11-29T09:02:12Z" finished-at="2017-11-29T09:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="cHistoryMsg()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="cHistoryMsg" duration-ms="990" started-at="2017-11-29T09:02:15Z" finished-at="2017-11-29T09:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cHistoryMsg -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:16Z" finished-at="2017-11-29T09:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="beforeMethod" is-config="true" duration-ms="3095" started-at="2017-11-29T09:02:16Z" finished-at="2017-11-29T09:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="dFrame()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="dFrame" duration-ms="1139" started-at="2017-11-29T09:02:19Z" finished-at="2017-11-29T09:02:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dFrame -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:20Z" finished-at="2017-11-29T09:02:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="beforeMethod" is-config="true" duration-ms="3453" started-at="2017-11-29T09:02:20Z" finished-at="2017-11-29T09:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="eDevice()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="eDevice" duration-ms="1691" started-at="2017-11-29T09:02:24Z" finished-at="2017-11-29T09:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eDevice -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:25Z" finished-at="2017-11-29T09:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="beforeMethod" is-config="true" duration-ms="3488" started-at="2017-11-29T09:02:25Z" finished-at="2017-11-29T09:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="fParnter()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="fParnter" duration-ms="1026" started-at="2017-11-29T09:02:29Z" finished-at="2017-11-29T09:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fParnter -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="beforeMethod" is-config="true" duration-ms="3033" started-at="2017-11-29T09:02:30Z" finished-at="2017-11-29T09:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:30Z" finished-at="2017-11-29T09:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="gMy()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="gMy" duration-ms="973" started-at="2017-11-29T09:02:33Z" finished-at="2017-11-29T09:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gMy -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:34Z" finished-at="2017-11-29T09:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="beforeMethod" is-config="true" duration-ms="2958" started-at="2017-11-29T09:02:34Z" finished-at="2017-11-29T09:02:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="hLogout()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="hLogout" duration-ms="1271" started-at="2017-11-29T09:02:37Z" finished-at="2017-11-29T09:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hLogout -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:02:38Z" finished-at="2017-11-29T09:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Operation.WriteNewMsg.Navigate@31a5c39e]" name="afterClass" is-config="true" duration-ms="225" started-at="2017-11-29T09:02:38Z" finished-at="2017-11-29T09:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Operation.WriteNewMsg.Navigate -->
+      <class name="Operation.History.Navigate">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Operation.History.Navigate@72d818d1]" name="beforeClass" is-config="true" duration-ms="7489" started-at="2017-11-29T09:08:23Z" finished-at="2017-11-29T09:08:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13132919225]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="beforeMethod" is-config="true" duration-ms="1648" started-at="2017-11-29T09:08:31Z" finished-at="2017-11-29T09:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a1back()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="a1back" duration-ms="1323" started-at="2017-11-29T09:08:33Z" finished-at="2017-11-29T09:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a1back -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-29T09:08:34Z" finished-at="2017-11-29T09:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="beforeMethod" is-config="true" duration-ms="1398" started-at="2017-11-29T09:08:34Z" finished-at="2017-11-29T09:08:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a2NewMsg()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="a2NewMsg" duration-ms="570" started-at="2017-11-29T09:08:35Z" finished-at="2017-11-29T09:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a2NewMsg -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="beforeMethod" is-config="true" duration-ms="1335" started-at="2017-11-29T09:08:36Z" finished-at="2017-11-29T09:08:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:08:36Z" finished-at="2017-11-29T09:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="a5Device()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="a5Device" duration-ms="894" started-at="2017-11-29T09:08:37Z" finished-at="2017-11-29T09:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a5Device -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="beforeMethod" is-config="true" duration-ms="1717" started-at="2017-11-29T09:08:38Z" finished-at="2017-11-29T09:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:08:38Z" finished-at="2017-11-29T09:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="a6Parnter()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="a6Parnter" duration-ms="1032" started-at="2017-11-29T09:08:40Z" finished-at="2017-11-29T09:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a6Parnter -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:08:41Z" finished-at="2017-11-29T09:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="beforeMethod" is-config="true" duration-ms="1362" started-at="2017-11-29T09:08:41Z" finished-at="2017-11-29T09:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b1Display25()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="b1Display25" duration-ms="1744" started-at="2017-11-29T09:08:42Z" finished-at="2017-11-29T09:08:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b1Display25 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:08:44Z" finished-at="2017-11-29T09:08:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="beforeMethod" is-config="true" duration-ms="1322" started-at="2017-11-29T09:08:44Z" finished-at="2017-11-29T09:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b2Display50()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="b2Display50" duration-ms="2046" started-at="2017-11-29T09:08:45Z" finished-at="2017-11-29T09:08:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b2Display50 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-29T09:08:47Z" finished-at="2017-11-29T09:08:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="beforeMethod" is-config="true" duration-ms="1307" started-at="2017-11-29T09:08:47Z" finished-at="2017-11-29T09:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b3Display100()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="b3Display100" duration-ms="2061" started-at="2017-11-29T09:08:49Z" finished-at="2017-11-29T09:08:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b3Display100 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="beforeMethod" is-config="true" duration-ms="1309" started-at="2017-11-29T09:08:51Z" finished-at="2017-11-29T09:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:08:51Z" finished-at="2017-11-29T09:08:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="b4Page1()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="b4Page1" duration-ms="458" started-at="2017-11-29T09:08:52Z" finished-at="2017-11-29T09:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b4Page1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-29T09:08:52Z" finished-at="2017-11-29T09:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="beforeMethod" is-config="true" duration-ms="1305" started-at="2017-11-29T09:08:52Z" finished-at="2017-11-29T09:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b5Next()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="b5Next" duration-ms="2332" started-at="2017-11-29T09:08:54Z" finished-at="2017-11-29T09:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b5Next -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="beforeMethod" is-config="true" duration-ms="1301" started-at="2017-11-29T09:08:56Z" finished-at="2017-11-29T09:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:08:56Z" finished-at="2017-11-29T09:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="b6LastPage()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="b6LastPage" duration-ms="4127" started-at="2017-11-29T09:08:57Z" finished-at="2017-11-29T09:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b6LastPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:02Z" finished-at="2017-11-29T09:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="beforeMethod" is-config="true" duration-ms="1309" started-at="2017-11-29T09:09:02Z" finished-at="2017-11-29T09:09:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="zLogout()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="zLogout" duration-ms="1292" started-at="2017-11-29T09:09:03Z" finished-at="2017-11-29T09:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zLogout -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="afterClass" is-config="true" duration-ms="238" started-at="2017-11-29T09:09:04Z" finished-at="2017-11-29T09:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Operation.History.Navigate@72d818d1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T09:09:04Z" finished-at="2017-11-29T09:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Operation.History.Navigate -->
+      <class name="Operation.WriteNewMsg.VideoUpload">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeClass" is-config="true" duration-ms="7827" started-at="2017-11-29T09:05:12Z" finished-at="2017-11-29T09:05:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13123456707]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeMethod" is-config="true" duration-ms="4443" started-at="2017-11-29T09:05:19Z" finished-at="2017-11-29T09:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a1TitleAlert()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="a1TitleAlert" duration-ms="2232" started-at="2017-11-29T09:05:24Z" finished-at="2017-11-29T09:05:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a1TitleAlert -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeMethod" is-config="true" duration-ms="4478" started-at="2017-11-29T09:05:26Z" finished-at="2017-11-29T09:05:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a2Title30chars()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="a2Title30chars" duration-ms="1935" started-at="2017-11-29T09:05:31Z" finished-at="2017-11-29T09:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a2Title30chars -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeMethod" is-config="true" duration-ms="2628" started-at="2017-11-29T09:05:33Z" finished-at="2017-11-29T09:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a3WrongFormat()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="a3WrongFormat" duration-ms="2054" started-at="2017-11-29T09:05:35Z" finished-at="2017-11-29T09:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a3WrongFormat -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeMethod" is-config="true" duration-ms="4433" started-at="2017-11-29T09:05:37Z" finished-at="2017-11-29T09:05:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a4UploadingInputTitle()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="a4UploadingInputTitle" duration-ms="2011" started-at="2017-11-29T09:05:42Z" finished-at="2017-11-29T09:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a4UploadingInputTitle -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeMethod" is-config="true" duration-ms="2473" started-at="2017-11-29T09:05:44Z" finished-at="2017-11-29T09:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a5UploadingScroll()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="a5UploadingScroll" duration-ms="1889" started-at="2017-11-29T09:05:46Z" finished-at="2017-11-29T09:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a5UploadingScroll -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeMethod" is-config="true" duration-ms="4365" started-at="2017-11-29T09:05:48Z" finished-at="2017-11-29T09:05:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a6UploadingClickOutside()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="a6UploadingClickOutside" duration-ms="2703" started-at="2017-11-29T09:05:52Z" finished-at="2017-11-29T09:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a6UploadingClickOutside -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeMethod" is-config="true" duration-ms="4418" started-at="2017-11-29T09:05:55Z" finished-at="2017-11-29T09:05:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a7UploadingVerifyFinish()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="a7UploadingVerifyFinish" duration-ms="101" started-at="2017-11-29T09:05:59Z" finished-at="2017-11-29T09:06:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a7UploadingVerifyFinish -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeMethod" is-config="true" duration-ms="4364" started-at="2017-11-29T09:06:00Z" finished-at="2017-11-29T09:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a8Uploading50Close()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="a8Uploading50Close" duration-ms="1858" started-at="2017-11-29T09:06:04Z" finished-at="2017-11-29T09:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a8Uploading50Close -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeMethod" is-config="true" duration-ms="4456" started-at="2017-11-29T09:06:06Z" finished-at="2017-11-29T09:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a9Uploading90Close()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="a9Uploading90Close" duration-ms="2332" started-at="2017-11-29T09:06:10Z" finished-at="2017-11-29T09:06:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a9Uploading90Close -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeMethod" is-config="true" duration-ms="4394" started-at="2017-11-29T09:06:13Z" finished-at="2017-11-29T09:06:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b1UploadingCancelX()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="b1UploadingCancelX" duration-ms="15314" started-at="2017-11-29T09:06:17Z" finished-at="2017-11-29T09:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b1UploadingCancelX -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeMethod" is-config="true" duration-ms="4590" started-at="2017-11-29T09:06:32Z" finished-at="2017-11-29T09:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b2UploadingConfirmClose()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="b2UploadingConfirmClose" duration-ms="652" started-at="2017-11-29T09:06:37Z" finished-at="2017-11-29T09:06:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b2UploadingConfirmClose -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeMethod" is-config="true" duration-ms="4648" started-at="2017-11-29T09:06:38Z" finished-at="2017-11-29T09:06:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b3UploadAgain()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="b3UploadAgain" duration-ms="1822" started-at="2017-11-29T09:06:42Z" finished-at="2017-11-29T09:06:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b3UploadAgain -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeMethod" is-config="true" duration-ms="4455" started-at="2017-11-29T09:06:44Z" finished-at="2017-11-29T09:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b4UploadedScroll()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="b4UploadedScroll" duration-ms="2774" started-at="2017-11-29T09:06:48Z" finished-at="2017-11-29T09:06:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b4UploadedScroll -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeMethod" is-config="true" duration-ms="4424" started-at="2017-11-29T09:06:51Z" finished-at="2017-11-29T09:06:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b5UploadingClickOutside()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="b5UploadingClickOutside" duration-ms="2522" started-at="2017-11-29T09:06:56Z" finished-at="2017-11-29T09:06:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b5UploadingClickOutside -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeMethod" is-config="true" duration-ms="4473" started-at="2017-11-29T09:06:58Z" finished-at="2017-11-29T09:07:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b6UploadedClose()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="b6UploadedClose" duration-ms="2525" started-at="2017-11-29T09:07:03Z" finished-at="2017-11-29T09:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b6UploadedClose -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeMethod" is-config="true" duration-ms="4413" started-at="2017-11-29T09:07:05Z" finished-at="2017-11-29T09:07:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b7UploadedCancelClose()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="b7UploadedCancelClose" duration-ms="2711" started-at="2017-11-29T09:07:10Z" finished-at="2017-11-29T09:07:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b7UploadedCancelClose -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="beforeMethod" is-config="true" duration-ms="4438" started-at="2017-11-29T09:07:12Z" finished-at="2017-11-29T09:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="b8UploadedCloseConfirm()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="b8UploadedCloseConfirm" duration-ms="5032" started-at="2017-11-29T09:07:17Z" finished-at="2017-11-29T09:07:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b8UploadedCloseConfirm -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Operation.WriteNewMsg.VideoUpload@490ab905]" name="afterClass" is-config="true" duration-ms="265" started-at="2017-11-29T09:07:22Z" finished-at="2017-11-29T09:07:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Operation.WriteNewMsg.VideoUpload -->
+    </test> <!-- TestOperation -->
+  </suite> <!-- Suite1 -->
+</testng-results>
