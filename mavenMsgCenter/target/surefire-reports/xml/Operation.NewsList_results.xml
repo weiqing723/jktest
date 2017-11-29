@@ -4,36 +4,36 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="45.932">
+           time="45.394">
   <properties />
   
   
-            <testcase name="b5pushObjCancelAll" time="2.678" classname="Operation.NewsList" />
-                <testcase name="a2default2" time="0.035" classname="Operation.NewsList" />
-                <testcase name="c8PageNext" time="2.745" classname="Operation.NewsList" />
-                <testcase name="b7textOfCancelAll" time="2.236" classname="Operation.NewsList" />
-                <testcase name="c6Page1Disabled" time="1.929" classname="Operation.NewsList" />
-                <testcase name="a6history_click" time="0.978" classname="Operation.NewsList" />
-                <testcase name="b6seleckallAfterSelectone" time="2.103" classname="Operation.NewsList" />
-                <testcase name="b4WriteSelectAll" time="2.242" classname="Operation.NewsList" />
-                <testcase name="c1WhiteSelectTwoPages" time="3.356" classname="Operation.NewsList" />
-                <testcase name="c7PageLastDisabled" time="1.926" classname="Operation.NewsList" />
-                <testcase name="b9WhiteSelectAllAgain" time="3.206" classname="Operation.NewsList" />
-                <testcase name="c4RecentPushCancel" time="2.255" classname="Operation.NewsList" />
-                <testcase name="b3apushObjAll" time="0.853" classname="Operation.NewsList" />
-                <testcase name="c3WhiteSelectAll" time="2.753" classname="Operation.NewsList" />
-                <testcase name="b8WhiteAfterCancelAll" time="2.671" classname="Operation.NewsList" />
-                <testcase name="c9LastPage" time="0.496" classname="Operation.NewsList" />
-                <testcase name="a5leftnavi1" time="0.048" classname="Operation.NewsList" />
-                <testcase name="zlogout" time="0.276" classname="Operation.NewsList" />
-                <testcase name="a7Album_click" time="1.851" classname="Operation.NewsList" />
-                <testcase name="a1default1" time="0.033" classname="Operation.NewsList" />
-                <testcase name="c2WhiteSelectTwoPages" time="5.124" classname="Operation.NewsList" />
-                <testcase name="a8Device_click" time="2.419" classname="Operation.NewsList" />
-                <testcase name="a9Partner_click" time="1.195" classname="Operation.NewsList" />
-                <testcase name="a3default3" time="0.055" classname="Operation.NewsList" />
-                <testcase name="b1pushObj" time="0.979" classname="Operation.NewsList" />
-                <testcase name="a4NewMsgz_click" time="0.655" classname="Operation.NewsList" />
-                <testcase name="b2pushObjNums" time="0.835" classname="Operation.NewsList" />
+            <testcase name="b3apushObjAll" time="0.866" classname="Operation.NewsList" />
+                <testcase name="c3WhiteSelectAll" time="2.628" classname="Operation.NewsList" />
+                <testcase name="a3default3" time="0.037" classname="Operation.NewsList" />
+                <testcase name="b4WriteSelectAll" time="2.162" classname="Operation.NewsList" />
+                <testcase name="c7PageLastDisabled" time="1.894" classname="Operation.NewsList" />
+                <testcase name="a4NewMsgz_click" time="0.561" classname="Operation.NewsList" />
+                <testcase name="b9WhiteSelectAllAgain" time="3.173" classname="Operation.NewsList" />
+                <testcase name="a8Device_click" time="1.893" classname="Operation.NewsList" />
+                <testcase name="c6Page1Disabled" time="1.885" classname="Operation.NewsList" />
+                <testcase name="c8PageNext" time="2.801" classname="Operation.NewsList" />
+                <testcase name="zlogout" time="0.248" classname="Operation.NewsList" />
+                <testcase name="a1default1" time="0.042" classname="Operation.NewsList" />
+                <testcase name="a2default2" time="0.041" classname="Operation.NewsList" />
+                <testcase name="b6seleckallAfterSelectone" time="1.943" classname="Operation.NewsList" />
+                <testcase name="b7textOfCancelAll" time="2.265" classname="Operation.NewsList" />
+                <testcase name="c1WhiteSelectTwoPages" time="3.218" classname="Operation.NewsList" />
+                <testcase name="b5pushObjCancelAll" time="2.651" classname="Operation.NewsList" />
+                <testcase name="b1pushObj" time="1.044" classname="Operation.NewsList" />
+                <testcase name="a6history_click" time="1.008" classname="Operation.NewsList" />
+                <testcase name="a5leftnavi1" time="0.136" classname="Operation.NewsList" />
+                <testcase name="a7Album_click" time="2.019" classname="Operation.NewsList" />
+                <testcase name="b8WhiteAfterCancelAll" time="2.669" classname="Operation.NewsList" />
+                <testcase name="c4RecentPushCancel" time="2.212" classname="Operation.NewsList" />
+                <testcase name="b2pushObjNums" time="0.862" classname="Operation.NewsList" />
+                <testcase name="c2WhiteSelectTwoPages" time="4.907" classname="Operation.NewsList" />
+                <testcase name="c9LastPage" time="0.283" classname="Operation.NewsList" />
+                <testcase name="a9Partner_click" time="1.946" classname="Operation.NewsList" />
       
 </testsuite>

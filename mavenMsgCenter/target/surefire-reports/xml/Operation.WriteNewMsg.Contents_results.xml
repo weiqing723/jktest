@@ -4,25 +4,25 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="32.224">
+           time="31.939">
   <properties />
   
   
-            <testcase name="aTitleNull" time="0.773" classname="Operation.WriteNewMsg.Contents" />
-                <testcase name="b8UploadVideoAgain" time="1.721" classname="Operation.WriteNewMsg.Contents" />
-                <testcase name="b1PicEdit" time="1.549" classname="Operation.WriteNewMsg.Contents" />
-                <testcase name="b0TextareaCount" time="0.724" classname="Operation.WriteNewMsg.Contents" />
-                <testcase name="acDefaultLabel" time="0.346" classname="Operation.WriteNewMsg.Contents" />
-                <testcase name="b4Preview" time="1.514" classname="Operation.WriteNewMsg.Contents" />
-                <testcase name="aaDefaultLabel" time="0.141" classname="Operation.WriteNewMsg.Contents" />
-                <testcase name="abChangeLabel" time="0.813" classname="Operation.WriteNewMsg.Contents" />
-                <testcase name="b0PicClick" time="1.583" classname="Operation.WriteNewMsg.Contents" />
-                <testcase name="b3UploadAgain" time="3.036" classname="Operation.WriteNewMsg.Contents" />
-                <testcase name="b6VideoEdit" time="0.654" classname="Operation.WriteNewMsg.Contents" />
-                <testcase name="b7DeleteVideo" time="2.217" classname="Operation.WriteNewMsg.Contents" />
-                <testcase name="b5VideoClick" time="7.744" classname="Operation.WriteNewMsg.Contents" />
-                <testcase name="beforeMethod" time="0.000" classname="Operation.WriteNewMsg.Contents" />
-                <testcase name="aTitleLength14" time="0.196" classname="Operation.WriteNewMsg.Contents" />
-                <testcase name="b2PicDelete" time="9.213" classname="Operation.WriteNewMsg.Contents" />
+            <testcase name="beforeMethod" time="0.000" classname="Operation.WriteNewMsg.Contents" />
+                <testcase name="b3UploadAgain" time="3.012" classname="Operation.WriteNewMsg.Contents" />
+                <testcase name="b1PicEdit" time="1.532" classname="Operation.WriteNewMsg.Contents" />
+                <testcase name="aaDefaultLabel" time="0.119" classname="Operation.WriteNewMsg.Contents" />
+                <testcase name="b8UploadVideoAgain" time="2.184" classname="Operation.WriteNewMsg.Contents" />
+                <testcase name="aTitleLength14" time="0.178" classname="Operation.WriteNewMsg.Contents" />
+                <testcase name="b0PicClick" time="1.570" classname="Operation.WriteNewMsg.Contents" />
+                <testcase name="b7DeleteVideo" time="2.185" classname="Operation.WriteNewMsg.Contents" />
+                <testcase name="acDefaultLabel" time="0.350" classname="Operation.WriteNewMsg.Contents" />
+                <testcase name="aTitleNull" time="0.688" classname="Operation.WriteNewMsg.Contents" />
+                <testcase name="abChangeLabel" time="0.804" classname="Operation.WriteNewMsg.Contents" />
+                <testcase name="b0TextareaCount" time="0.712" classname="Operation.WriteNewMsg.Contents" />
+                <testcase name="b2PicDelete" time="9.189" classname="Operation.WriteNewMsg.Contents" />
+                <testcase name="b6VideoEdit" time="0.667" classname="Operation.WriteNewMsg.Contents" />
+                <testcase name="b4Preview" time="1.502" classname="Operation.WriteNewMsg.Contents" />
+                <testcase name="b5VideoClick" time="7.247" classname="Operation.WriteNewMsg.Contents" />
       
 </testsuite>

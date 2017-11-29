@@ -4,30 +4,30 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="30.707">
+           time="30.746">
   <properties />
   
   
-            <testcase name="b7UploadedAgainTwice" time="1.960" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="b1UploadingCloseConfirmUploadAgain" time="2.337" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="a1TitleText" time="0.685" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="a3PictureSizeVerify" time="1.067" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="b2UploadedScroll" time="0.868" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="b6UploadedAgainTextVerify" time="3.079" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="a7UploadingClickFinish" time="0.189" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="a6UploadingClickOutside" time="0.704" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="b3UloadedClickOutside" time="0.657" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="c2UploadedCloseConfirmUploadAgain" time="2.009" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="a2Title30Chars" time="0.873" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="b8UploadedClose" time="0.890" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="b4UploadedTextInput" time="2.825" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="a8UploadingClickX" time="0.475" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="b9UploadedCloseCancel" time="1.354" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="a9UploadingCloseConfirm" time="0.634" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="a5UploadingScroll" time="0.708" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="b5UploadAgain" time="1.321" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="a8UploadingCloseCancel" time="6.645" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="c1UploadedCloseConfirm" time="1.157" classname="Operation.WriteNewMsg.PictureUpload" />
-                <testcase name="a4UploadingTextInput" time="0.270" classname="Operation.WriteNewMsg.PictureUpload" />
+            <testcase name="b9UploadedCloseCancel" time="1.187" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="b7UploadedAgainTwice" time="1.869" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="b6UploadedAgainTextVerify" time="2.881" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="a9UploadingCloseConfirm" time="1.498" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="a8UploadingClickX" time="0.417" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="a5UploadingScroll" time="1.179" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="a4UploadingTextInput" time="0.265" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="b3UloadedClickOutside" time="0.639" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="a1TitleText" time="0.625" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="c2UploadedCloseConfirmUploadAgain" time="1.883" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="b4UploadedTextInput" time="2.218" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="a8UploadingCloseCancel" time="6.427" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="b2UploadedScroll" time="0.847" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="a6UploadingClickOutside" time="0.608" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="b1UploadingCloseConfirmUploadAgain" time="1.863" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="a2Title30Chars" time="0.965" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="c1UploadedCloseConfirm" time="1.278" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="a7UploadingClickFinish" time="0.110" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="b5UploadAgain" time="1.807" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="a3PictureSizeVerify" time="1.061" classname="Operation.WriteNewMsg.PictureUpload" />
+                <testcase name="b8UploadedClose" time="1.119" classname="Operation.WriteNewMsg.PictureUpload" />
       
 </testsuite>

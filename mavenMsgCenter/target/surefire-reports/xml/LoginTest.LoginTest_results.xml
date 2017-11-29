@@ -4,17 +4,17 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="5.544">
+           time="5.687">
   <properties />
   
   
-            <testcase name="phoneisWrongformat1" time="0.882" classname="LoginTest.LoginTest" />
-                <testcase name="phoneisWrongPwd" time="0.819" classname="LoginTest.LoginTest" />
-                <testcase name="phoneisWrongformat3" time="0.866" classname="LoginTest.LoginTest" />
-                <testcase name="phoneisLock" time="0.913" classname="LoginTest.LoginTest" />
-                <testcase name="phoneisWrongformat2" time="0.866" classname="LoginTest.LoginTest" />
+            <testcase name="phoneisLock" time="0.911" classname="LoginTest.LoginTest" />
+                <testcase name="phoneisWrongformat3" time="0.896" classname="LoginTest.LoginTest" />
+                <testcase name="phoneisWrongformat2" time="0.966" classname="LoginTest.LoginTest" />
+                <testcase name="phoneisWrongformat1" time="0.880" classname="LoginTest.LoginTest" />
+                <testcase name="phoneisWrongNumber" time="0.888" classname="LoginTest.LoginTest" />
+                <testcase name="getUrl" time="0.011" classname="LoginTest.LoginTest" />
+                <testcase name="phoneisWrongPwd" time="0.826" classname="LoginTest.LoginTest" />
                 <testcase name="phoneisNull" time="0.309" classname="LoginTest.LoginTest" />
-                <testcase name="phoneisWrongNumber" time="0.876" classname="LoginTest.LoginTest" />
-                <testcase name="getUrl" time="0.013" classname="LoginTest.LoginTest" />
       
 </testsuite>
